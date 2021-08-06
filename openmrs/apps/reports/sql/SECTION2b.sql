@@ -369,6 +369,8 @@ from obs o
         )lost)
 		
 		UNION ALL
+		SELECT  '','Total_Current_In_CAGs'
+		UNION ALL
 		SELECT  '','Transfer_In_This_Month'
 		UNION ALL
 		SELECT  '','Transfer_Out_This_Month'

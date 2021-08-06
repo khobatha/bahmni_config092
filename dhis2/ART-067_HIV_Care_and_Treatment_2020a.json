@@ -817,25 +817,32 @@
 		
 		"ART CARE - NEW AND CURRENT ON ART_SECTION B": {
                 "dataValues":[
+						{
+						"_comment": "total current in CAGs",
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "yztonJmqtCT",
+                        "row": 1,
+                        "column": 2
+                        },
                         {
 						"_comment": "transfer in",
                         "categoryOptionCombo": "tUiK0vIsDaX",
                         "dataElement": "YgvGvd3NUxR",
-                        "row": 1,
+                        "row": 2,
                         "column": 2
                         },
 						 {
 						"_comment": "transfer out",
                         "categoryOptionCombo": "tUiK0vIsDaX",
                         "dataElement": "OsHsdDsIaaO",
-                        "row": 2,
+                        "row": 3,
                         "column": 2
                         },
 						 {
 						"_comment": "restarted",
                         "categoryOptionCombo": "tUiK0vIsDaX",
                         "dataElement": "X2PAGRx7lhQ",
-                        "row": 3,
+                        "row": 4,
                         "column": 2
                         }
 						,
@@ -843,7 +850,7 @@
 						"_comment": "died",
                         "categoryOptionCombo": "tUiK0vIsDaX",
                         "dataElement": "i1TwYjSZY1C",
-                        "row": 4,
+                        "row": 5,
                         "column": 2
                         }
 						,
@@ -851,7 +858,7 @@
 						"_comment": "stopped",
                         "categoryOptionCombo": "tUiK0vIsDaX",
                         "dataElement": "nJ6YxF8Y6Zs",
-                        "row": 5,
+                        "row": 6,
                         "column": 2
                         }
 						,
@@ -859,7 +866,7 @@
 						"_comment": "lost",
                         "categoryOptionCombo": "tUiK0vIsDaX",
                         "dataElement": "tuCe7xumbwp",
-                        "row": 6,
+                        "row": 7,
                         "column": 2
                         }
                 ]
