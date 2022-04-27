@@ -939,10 +939,10 @@
         }
     },
     "test": {
-        "name": " Test",
+        "name": "DHIS2 Integration App Test",
         "type": "MRSGeneric",
         "config": {
-            "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/test.sql"
+            "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/dhis_integration_test.sql"
         }
     },
     "test1": {
