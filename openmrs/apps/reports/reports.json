@@ -938,19 +938,19 @@
             "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/SECTION3.sql"
         }
     },
-    "TESTS-01 DHIS2 Integration App SYNC Test": {
-        "name": "TESTS-01 DHIS2 Integration App SYNC Test",
-		"DHISProgram": true,
+    "TESTS-01 DHIS INTEGRATION APP SYNC TEST": {
+        "name": "TESTS-01 DHIS INTEGRATION APP SYNC TEST",
+        "type": "concatenated",
         "config": {
-			"reports":[
-			{
-				"name": "TESTS-01 DHIS2 Integration App SYNC Test",
-				"type": "MRSGeneric",
-				"config":{
-					"sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/dhis2_integration_test.sql"
-				}
-			}
-			]
+            "reports": [
+                {
+                    "name": "TESTS-01 DHIS INTEGRATION APP SYNC TEST",
+                    "type": "MRSGeneric",
+                    "config": {
+                        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/dhis2_integration_test.sql"
+                    }
+                }
+            ]
         }
     },
     "test1": {
