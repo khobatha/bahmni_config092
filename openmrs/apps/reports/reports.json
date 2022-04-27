@@ -941,6 +941,7 @@
     "test": {
         "name": "TESTS-01 | DHIS2 Integration App SYNC Test",
         "type": "MRSGeneric",
+		"DHISProgram": true,
         "config": {
             "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/dhis2_integration_test.sql"
         }
