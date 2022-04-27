@@ -939,7 +939,7 @@
         }
     },
     "test": {
-        "name": "TESTS-01 | DHIS2 Integration App SYNC Test",
+        "name": "TESTS-01 DHIS2 Integration App SYNC Test",
         "type": "MRSGeneric",
 		"DHISProgram": true,
         "config": {
