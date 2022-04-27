@@ -938,7 +938,7 @@
             "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/SECTION3.sql"
         }
     },
-    "test": {
+    "TESTS-01 DHIS2 Integration App SYNC Test": {
         "name": "TESTS-01 DHIS2 Integration App SYNC Test",
         "type": "MRSGeneric",
 		"DHISProgram": true,
