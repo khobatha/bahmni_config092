@@ -941,6 +941,7 @@
     "TESTS-01 DHIS INTEGRATION APP SYNC TEST": {
         "name": "TESTS-01 DHIS INTEGRATION APP SYNC TEST",
         "type": "concatenated",
+		"DHISProgram": true,
         "config": {
             "reports": [
                 {
