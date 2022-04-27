@@ -939,7 +939,7 @@
         }
     },
     "TESTS-01 DHIS2 Integration App Sync Test": {
-        "name": "TESTS-01 DHIS2 Integration App SYNC Test",
+        "name": "TESTS-01 DHIS2 Integration App Sync Test",
         "type": "concatenated",
 		"DHISProgram": true,
         "config": {
