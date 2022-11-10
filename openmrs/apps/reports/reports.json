@@ -925,6 +925,22 @@
             "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/ARVs.sql"
         }
     },
+    "PHARM-001 Pharmacy ARV Regimen": {
+        "name": "PHARM-001 Pharmacy ARV Regimen",
+        "type": "concatenated",
+		"DHISProgram": true,
+        "config": {
+            "reports": [
+                {
+                    "name": "PHARM-001 Pharmacy ARV Regimen",
+                    "type": "ERPGeneric",
+                    "config": {
+                        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/ARVs.sql"
+                    }
+                }
+            ]
+        }
+    },
     "batch_numbers": {
         "name": "PHARM-002 | Dispensing Orders report",
         "type": "ERPGeneric",
