@@ -118,8 +118,7 @@
                         "column": 2
                         },
 						{
-						"_comment": "Tenofovir/Lamivudine (TDF/3TC) - 300/300mg",	
-						"_comment": "total current in CAGs",
+						"_comment": "Tenofovir/Lamivudine (TDF/3TC) - 300/300mg",
                         "categoryOptionCombo": "tUiK0vIsDaX",
                         "dataElement": "iFrQ9v33JTP",
                         "row": 17,
