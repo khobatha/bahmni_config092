@@ -1143,22 +1143,6 @@
             "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/TB_Screening.sql"
         }
     },
-    "TESTS-01 DHIS Integration App Sync Test": {
-        "name": "TESTS-01 DHIS Integration App Sync Test",
-        "type": "concatenated",
-		"DHISProgram": true,
-        "config": {
-            "reports": [
-                {
-                    "name": "TESTS-01 DHIS Integration App Sync Test",
-                    "type": "ERPGeneric",
-                    "config": {
-                        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/dhis_integration_test.sql"
-                    }
-                }
-            ]
-        }
-    },
     "TB_Clients_Registered_Vs_Clients_Intakes_Pivot": {
         "name": "TB-019 | TB Intakes (Pivot)",
         "type": "MRSGeneric",
