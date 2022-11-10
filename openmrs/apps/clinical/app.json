@@ -56,7 +56,8 @@
         	"additionalPatientIdentifiers": [
            		"National ID",
 			"HIV Program ID",
-			"TB Program ID"
+			"TB Program ID",
+			"New HIV Program ID"
        		]
     	},
 		"programDisplayControl": {
@@ -93,12 +94,16 @@
 					"codedConceptName":"ANC, Place of Birth",
 					"codedConceptName":"Mode of Delivery",
 					"allowAddMore": true
-			},			
+			},
 
 			"HTSIDX, Index Contact Information" : {
 					"allowAddMore": true
 			},
-			
+
+			"Self_Test_Buddy" : {
+				"allowAddMore": true
+			},
+
 			"ANC, Family History": {
 				"multiSelect": true
 			},
@@ -108,9 +113,17 @@
 			"ANC, Drug History": {
 				"multiSelect": true
 			},
+      "HTC, HIVST Results": {
+				"required": true
+			},
+
+			"HTC, Distribution Mode": {
+				"multiSelect": true
+			},
+
 			"Addiction": {
 				"multiSelect": true
-			},	
+			},
 			"ANC, Family Planning Method": {
 				"multiSelect": true
 			},
@@ -140,7 +153,7 @@
 				"required": true
 			},
 			"Delivery Note, Delivery location" : {
-				"required": false
+				"required": true
 			},
 			"Mode of Delivery" : {
 				"required": true
@@ -212,12 +225,12 @@
 
 			"TB, HIV Management":{
 				"multiSelect" : true
-			},	 
+			},
 			"Phase of TB Treatment" : {
 
                 "required" : true
 
-            },   
+            },
 			"ARV drugs No. of days dispensed" : {
 				"required": false
 			},
@@ -245,6 +258,9 @@
 			"HIVTC, Viral load blood results return date" : {
 					"required" : true
 			},
+      "Follow up Date" : {
+        "allowFutureDates": true
+      },
 				"Pregnancy Estimated Date of Delivery" : {
 					"allowFutureDates": true
 				},
@@ -270,13 +286,16 @@
 				"required" : true,
 				"dropdown": true
 			},
+			"TB Status": {
+				"required" : false
+			},
 			"HIVTC, Regimen when transferred out": {
 				"required" : true
-			},      
+			},
 			"HIVTC, Date of transferred out": {
 				 "required" : true
 			},
-			
+
 			"ART treatment interruption Date": {
 				 "required" : true
 			},
@@ -294,7 +313,7 @@
 			},
 			"HIVTC, Pregnancy Estimated Date of Delivery":{
 			 "allowFutureDate": true
-			},           
+			},
 			"ART treatment interruption stopped reason":{
 				 "required" : false
 			},
@@ -302,6 +321,9 @@
 			"Appointment scheduled":{
 				 "required" : true
 			},
+			"Delivery date and time":{
+				"required" : true
+		   },
 
 			"Type of client":{
 				 "required" : true
@@ -383,7 +405,7 @@
 				"required": true
 			},
 			"HTC, SD Bioline Tie Breaker": {
-				"required": true
+				"required": false
 			},
 			"HTC, DNA PCR Test Results": {
 				"required": true
@@ -426,14 +448,15 @@
 			"HTC, Mode of Entry Point": {
 				"required": true
 			},
+			"ANC, Last Normal Menstrual Period": {
+				"required": true
+			},
+			
 			"HTC, Referred Facility": {
 				"required": true,
 				"dropdown": true
 			},
 			"HTC, Final HIV status": {
-				"required": true
-			},
-			"Testing Eligibility, Tested For HIV": {
 				"required": true
 			},
 			"Testing Eligibility, On ART Treatment" : {
@@ -442,14 +465,31 @@
 			"Testing Eligibility, Counselled & linked to Treatment" : {
 				"required": true
 			},
-			"Testing Eligibility, Time Last Test Done" : {
-				"required": true
-			},
 			"Testing Eligibility, Reinforced Prevention Counselling" : {
 				"required": true
 			},
+      "HIV, Testing Strategies" : {
+        "required": true,
+        "multiSelect": true
+      },
+	  "PrEP ,Entry point": {
+		"required": true
+	},
+	"PrEP ,Entry Point Mode": {
+		"required": true
+	},
+	"PrEP, Indication for starting PrEP": {
+		"required": true
+	},
+	"PrEP ,Date of Initiation": {
+		"required": true
+	},
+	"PrEP , HIV rapid test result": {
+		"required": true
+	},
+	
+
 			"LPA Susceptibility result" : {
-				"required": true,
 				"multiSelect": true
 			},
 			"OI, Opportunistic infections" : {
@@ -505,6 +545,18 @@
 				"Malaria, Death Date": "2015-12-01",
 				"HIVTC, ART Regimen": "",
 				"Posture": "Sitting"
+			},
+			"1st Dose": {
+				"multiSelect": true
+			},
+			"2nd Dose": {
+				"multiSelect": true
+			},
+			"3rd Dose": {
+				"multiSelect": true
+			},
+			"Under5, Base Doses":{
+				"multiSelect": true
 			}
 		},
 		"visitPage": {
