@@ -1193,9 +1193,9 @@
             "reports": [
                 {
                     "name": "TESTS-01 DHIS Integration App Sync Test",
-                    "type": "MRSGeneric",
+                    "type": "ERPGeneric",
                     "config": {
-                        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/dhis_integration_test_emr.sql"
+                        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/dhis_integration_test_erp.sql"
                     }
                 }
             ]
