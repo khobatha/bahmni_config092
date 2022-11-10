@@ -1,2 +1,2 @@
 SELECT COUNT(*)
-FROM person;
+FROM stock_move;
