@@ -1,6 +1,6 @@
 SELECT Product_Name, Unit_of_Issue,
 	 CASE WHEN Product_Name IS NULL THEN 0 ELSE (SUM(CASE WHEN stock_on_hand>0 THEN stock_on_hand ELSE 0 END)) END AS Qty_Stock_on_Hand,
-	 CASE WHEN Expiry_Date IS NULL THEN 0 ELSE Expiry_Date END AS Stock_Expiry_Date,
+	 CASE WHEN Expiry_Date  IS NULL THEN 0 ELSE Expiry_Date END AS Stock_Expiry_Date,
 	 CASE WHEN Product_Name IS NULL THEN 0 ELSE (SUM(CASE WHEN Quantity_expired_and_damaged>0 THEN Quantity_expired_and_damaged ELSE 0 END)) END AS Qty_Expired_and_damaged,
      CASE WHEN Product_Name IS NULL THEN 0 ELSE (SUM(CASE WHEN Quantity_Received>0 THEN Quantity_Received ELSE 0 END)) END AS Qty_Received,
      CASE WHEN Product_Name IS NULL THEN 0 ELSE (SUM(CASE WHEN stock_at_last_reporting_period>0 THEN stock_at_last_reporting_period ELSE 0 END)) END AS Qty_stock_at_last_reporting_period
@@ -162,7 +162,7 @@ SELECT  '1c=AZT-3TC-NVP 300/150/200mg','',0,NULL,0,0,0
 
 
 ) AS all_agg
-GROUP BY Product_Name, Unit_of_Issue, Expiry_Date
+GROUP BY Product_Name, Unit_of_Issue, Stock_Expiry_Date
 ORDER BY CASE WHEN Product_Name='Abacavir 300mg' 								THEN 1
 			  WHEN Product_Name='Abacavir/Lamivudine (ABC/3TC) - 600/300mg'		THEN 2
 			  WHEN Product_Name='Atazanavir 300mg' 								THEN 3
