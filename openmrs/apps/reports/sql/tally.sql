@@ -81,29 +81,29 @@ UNION ALL
 SELECT  '1c=AZT-3TC-NVP 300/150/200mg',0,0
 -- PART TWO
 UNION ALL	
-SELECT  'Abacavir 60mg','',0,NULL,0,0
+SELECT  'Abacavir 60mg','',0,0
 UNION ALL	
-SELECT  'Abacavir/Lamivudine (ABC/3TC) - 120/60mg','',0,NULL,0,0
+SELECT  'Abacavir/Lamivudine (ABC/3TC) - 120/60mg','',0,0
 UNION ALL	
-SELECT  'Darunavir 75mg','',0,NULL,0,0
+SELECT  'Darunavir 75mg','',0,0
 UNION ALL	
 SELECT  'Efavirenz 200mg','',0,NULL,0,0
 UNION ALL	
-SELECT  'Lopinavir and Ritonavir - 80mg/20ml','',0,NULL,0,0
+SELECT  'Lopinavir and Ritonavir - 80mg/20ml','',0,0
 UNION ALL	
-SELECT  'Lopinavir and Ritonavir- 40/10mg','',0,NULL,0,0
+SELECT  'Lopinavir and Ritonavir- 40/10mg','',0,0
 UNION ALL	
-SELECT  'Lopinavir and Ritonavir- 100/25mg','',0,NULL,0,0
+SELECT  'Lopinavir and Ritonavir- 100/25mg','',0,0
 UNION ALL	
-SELECT  'Nevirapine mixture 50mg','',0,NULL,0,0
+SELECT  'Nevirapine mixture 50mg','',0,0
 UNION ALL	
-SELECT  'Nevirapine mixture 50mg/5ml','',0,NULL,0,0
+SELECT  'Nevirapine mixture 50mg/5ml','',0,0
 UNION ALL	
-SELECT  'Raltegravir 100mg 100mg Tablet','',0,NULL,0,0
+SELECT  'Raltegravir 100mg 100mg Tablet','',0,0
 UNION ALL	
-SELECT  'AZT-3TC 60/30mg 60/30mg Tablet','',0,NULL,0,0
+SELECT  'AZT-3TC 60/30mg 60/30mg Tablet','',0,0
 UNION ALL	
-SELECT  '4c=AZT-3TC-NVP 60/30/50mg 60/30/50mg Tablet','',0,NULL,0,0
+SELECT  '4c=AZT-3TC-NVP 60/30/50mg 60/30/50mg Tablet','',0,0
 
 ) as all_agg
 GROUP by Drug
