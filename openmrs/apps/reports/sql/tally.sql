@@ -131,5 +131,18 @@ ORDER BY CASE WHEN Drug='Abacavir 300mg' 										THEN 1
 			  WHEN Drug='Zidovudine 10mg/1ml Suspension' 						THEN 24
 			  WHEN Drug='AZT-3TC 300/150mg' 									THEN 25
 			  WHEN Drug='1c=AZT-3TC-NVP 300/150/200mg' 							THEN 26
+			  WHEN Drug='Abacavir 60mg' 										THEN 27
+			  WHEN Drug='Abacavir/Lamivudine (ABC/3TC) - 120/60mg' 				THEN 28
+			  WHEN Drug='Darunavir 75mg' 										THEN 29
+			  WHEN Drug='Efavirenz 200mg' 										THEN 30
+			  WHEN Drug='Lopinavir and Ritonavir - 80mg/20ml' 					THEN 31
+			  WHEN Drug='Lopinavir and Ritonavir- 40/10mg' 						THEN 32
+			  WHEN Drug='Lopinavir and Ritonavir- 40/10mg' 						THEN 33
+			  WHEN Drug='Nevirapine mixture 50mg' 								THEN 34
+			  WHEN Drug='Nevirapine mixture 50mg/5ml' 							THEN 35
+			  WHEN Drug='Raltegravir 100mg 100mg Tablet' 						THEN 36
+			  WHEN Drug='AZT-3TC 60/30mg 60/30mg Tablet' 						THEN 37
+			  WHEN Drug='4c=AZT-3TC-NVP 60/30/50mg 60/30/50mg Tablet' 			THEN 38
+			  
 		 END;
 
