@@ -79,34 +79,72 @@ UNION ALL
 SELECT  'AZT-3TC 300/150mg',0,0
 UNION ALL	
 SELECT  '1c=AZT-3TC-NVP 300/150/200mg',0,0
+-- PART TWO
+UNION ALL	
+SELECT  'Abacavir 60mg','',0,NULL,0,0,0
+UNION ALL	
+SELECT  'Abacavir/Lamivudine (ABC/3TC) - 120/60mg','',0,NULL,0,0,0
+UNION ALL	
+SELECT  'Darunavir 75mg','',0,NULL,0,0,0
+UNION ALL	
+SELECT  'Efavirenz 200mg','',0,NULL,0,0,0
+UNION ALL	
+SELECT  'Lopinavir and Ritonavir - 80mg/20ml','',0,NULL,0,0,0
+UNION ALL	
+SELECT  'Lopinavir and Ritonavir- 40/10mg','',0,NULL,0,0,0
+UNION ALL	
+SELECT  'Lopinavir and Ritonavir- 100/25mg','',0,NULL,0,0,0
+UNION ALL	
+SELECT  'Nevirapine mixture 50mg','',0,NULL,0,0,0
+UNION ALL	
+SELECT  'Nevirapine mixture 50mg/5ml','',0,NULL,0,0,0
+UNION ALL	
+SELECT  'Raltegravir 100mg 100mg Tablet','',0,NULL,0,0,0
+UNION ALL	
+SELECT  'AZT-3TC 60/30mg 60/30mg Tablet','',0,NULL,0,0,0 
+UNION ALL	
+SELECT  '4c=AZT-3TC-NVP 60/30/50mg 60/30/50mg Tablet','',0,NULL,0,0,0
 
 ) as all_agg
 GROUP by Drug
-ORDER BY CASE WHEN Drug='Abacavir 300mg' 								THEN 1
-			  WHEN Drug='Abacavir/Lamivudine (ABC/3TC) - 600/300mg'		THEN 2
-			  WHEN Drug='Atazanavir 300mg' 								THEN 3
-			  WHEN Drug='Atazanavir/Ritonavir (ATV/RIV) - 300/100mg' 	THEN 4
-			  WHEN Drug='Darunavir 300mg' 								THEN 5
-			  WHEN Drug='Darunavir 600mg' 								THEN 6
-			  WHEN Drug='Dolutegravir 50mg' 							THEN 7
-			  WHEN Drug='Dolutegravir 10mg' 							THEN 8
-			  WHEN Drug='Efavirenz 600mg' 								THEN 9
-			  WHEN Drug='Etravirine 100mg' 								THEN 10
-			  WHEN Drug='Lamivudine (3TC) 150mg' 						THEN 11
-			  WHEN Drug='Lopinavir and Ritonavir - 200/50mg' 			THEN 12
-			  WHEN Drug='Nevirapine 200mg' 								THEN 13
-			  WHEN Drug='Raltegravir 400mg' 							THEN 14
-			  WHEN Drug='Ritonavir 100mg' 								THEN 15
-			  WHEN Drug='Tenofovir 300mg' 								THEN 16
-			  WHEN Drug='TDF-3TC 300/300mg' 							THEN 17
-			  WHEN Drug='1j=TDF-3TC-DTG 300/300/50mg (30)' 				THEN 18
-			  WHEN Drug='1j=TDF-3TC-DTG 300/300/50mg (90)' 				THEN 19
-			  WHEN Drug='1f=TDF-3TC-EFV 300/300/400mg (90)' 			THEN 20
-			  WHEN Drug='1f=TDF-3TC-EFV 300/300/400mg (30)' 			THEN 21
-			  WHEN Drug='1f=TDF-3TC-EFV 300/300/600mg (30)' 			THEN 22
-			  WHEN Drug='Zidovudine 300mg' 								THEN 23
-			  WHEN Drug='Zidovudine 10mg/1ml Suspension' 				THEN 24
-			  WHEN Drug='AZT-3TC 300/150mg' 							THEN 25
-			  WHEN Drug='1c=AZT-3TC-NVP 300/150/200mg' 					THEN 26
+ORDER BY CASE WHEN Drug='Abacavir 300mg' 										THEN 1
+			  WHEN Drug='Abacavir/Lamivudine (ABC/3TC) - 600/300mg'				THEN 2
+			  WHEN Drug='Atazanavir 300mg' 										THEN 3
+			  WHEN Drug='Atazanavir/Ritonavir (ATV/RIV) - 300/100mg' 			THEN 4
+			  WHEN Drug='Darunavir 300mg' 										THEN 5
+			  WHEN Drug='Darunavir 600mg' 										THEN 6
+			  WHEN Drug='Dolutegravir 50mg' 									THEN 7
+			  WHEN Drug='Dolutegravir 10mg' 									THEN 8
+			  WHEN Drug='Efavirenz 600mg' 										THEN 9
+			  WHEN Drug='Etravirine 100mg' 										THEN 10
+			  WHEN Drug='Lamivudine (3TC) 150mg' 								THEN 11
+			  WHEN Drug='Lopinavir and Ritonavir - 200/50mg' 					THEN 12
+			  WHEN Drug='Nevirapine 200mg' 										THEN 13
+			  WHEN Drug='Raltegravir 400mg' 									THEN 14
+			  WHEN Drug='Ritonavir 100mg' 										THEN 15
+			  WHEN Drug='Tenofovir 300mg' 										THEN 16
+			  WHEN Drug='TDF-3TC 300/300mg' 									THEN 17
+			  WHEN Drug='1j=TDF-3TC-DTG 300/300/50mg (30)' 						THEN 18
+			  WHEN Drug='1j=TDF-3TC-DTG 300/300/50mg (90)' 						THEN 19
+			  WHEN Drug='1f=TDF-3TC-EFV 300/300/400mg (90)' 					THEN 20
+			  WHEN Drug='1f=TDF-3TC-EFV 300/300/400mg (30)' 					THEN 21
+			  WHEN Drug='1f=TDF-3TC-EFV 300/300/600mg (30)' 					THEN 22
+			  WHEN Drug='Zidovudine 300mg' 										THEN 23
+			  WHEN Drug='Zidovudine 10mg/1ml Suspension' 						THEN 24
+			  WHEN Drug='AZT-3TC 300/150mg' 									THEN 25
+			  WHEN Drug='1c=AZT-3TC-NVP 300/150/200mg' 							THEN 26
+			   -- PART TWO
+			  WHEN Product_Name='Abacavir 60mg' 								THEN 27
+			  WHEN Product_Name='Abacavir/Lamivudine (ABC/3TC) - 120/60mg' 		THEN 28
+			  WHEN Product_Name='Darunavir 75mg' 								THEN 29
+			  WHEN Product_Name='Efavirenz 200mg' 								THEN 30
+			  WHEN Product_Name='Lopinavir and Ritonavir - 80mg/20ml' 			THEN 31
+			  WHEN Product_Name='Lopinavir and Ritonavir- 40/10mg' 				THEN 32
+			  WHEN Product_Name='Lopinavir and Ritonavir- 40/10mg' 				THEN 33
+			  WHEN Product_Name='Nevirapine mixture 50mg' 						THEN 34
+			  WHEN Product_Name='Nevirapine mixture 50mg/5ml' 					THEN 35
+			  WHEN Product_Name='Raltegravir 100mg 100mg Tablet' 				THEN 36
+			  WHEN Product_Name='AZT-3TC 60/30mg 60/30mg Tablet' 				THEN 37
+			  WHEN Product_Name='4c=AZT-3TC-NVP 60/30/50mg 60/30/50mg Tablet' 	THEN 38
 		 END;
 
