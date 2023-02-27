@@ -79,32 +79,6 @@ UNION ALL
 SELECT  'AZT-3TC 300/150mg',0,0
 UNION ALL	
 SELECT  '1c=AZT-3TC-NVP 300/150/200mg',0,0
--- PART TWO
-UNION ALL	
-SELECT  'Abacavir 60mg',0,0
-UNION ALL	
-SELECT  'Abacavir/Lamivudine (ABC/3TC) - 120/60mg',0,0
-UNION ALL	
-SELECT  'Darunavir 75mg',0,0
-UNION ALL	
-SELECT  'Efavirenz 200mg',0,0
-UNION ALL	
-SELECT  'Lopinavir and Ritonavir - 80mg/20ml',0,0
-UNION ALL	
-SELECT  'Lopinavir and Ritonavir- 40/10mg',0,0
-UNION ALL	
-SELECT  'Lopinavir and Ritonavir- 100/25mg',0,0
-UNION ALL	
-SELECT  'Nevirapine mixture 50mg',0,0
-UNION ALL	
-SELECT  'Nevirapine mixture 50mg/5ml',0,0
-UNION ALL	
-SELECT  'Raltegravir 100mg 100mg Tablet',0,0
-UNION ALL	
-SELECT  'AZT-3TC 60/30mg 60/30mg Tablet',0,0
-UNION ALL	
-SELECT  '4c=AZT-3TC-NVP 60/30/50mg 60/30/50mg Tablet',0,0
-
 ) as all_agg
 GROUP by Drug
 ORDER BY CASE WHEN Drug='Abacavir 300mg' 										THEN 1
@@ -133,18 +107,5 @@ ORDER BY CASE WHEN Drug='Abacavir 300mg' 										THEN 1
 			  WHEN Drug='Zidovudine 10mg/1ml Suspension' 						THEN 24
 			  WHEN Drug='AZT-3TC 300/150mg' 									THEN 25
 			  WHEN Drug='1c=AZT-3TC-NVP 300/150/200mg' 							THEN 26
-			   -- PART TWO
-			  WHEN Product_Name='Abacavir 60mg' 								THEN 27
-			  WHEN Product_Name='Abacavir/Lamivudine (ABC/3TC) - 120/60mg' 		THEN 28
-			  WHEN Product_Name='Darunavir 75mg' 								THEN 29
-			  WHEN Product_Name='Efavirenz 200mg' 								THEN 30
-			  WHEN Product_Name='Lopinavir and Ritonavir - 80mg/20ml' 			THEN 31
-			  WHEN Product_Name='Lopinavir and Ritonavir- 40/10mg' 				THEN 32
-			  WHEN Product_Name='Lopinavir and Ritonavir- 40/10mg' 				THEN 33
-			  WHEN Product_Name='Nevirapine mixture 50mg' 						THEN 34
-			  WHEN Product_Name='Nevirapine mixture 50mg/5ml' 					THEN 35
-			  WHEN Product_Name='Raltegravir 100mg 100mg Tablet' 				THEN 36
-			  WHEN Product_Name='AZT-3TC 60/30mg 60/30mg Tablet' 				THEN 37
-			  WHEN Product_Name='4c=AZT-3TC-NVP 60/30/50mg 60/30/50mg Tablet' 	THEN 38
 		 END;
 
