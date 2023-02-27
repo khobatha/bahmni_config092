@@ -957,7 +957,7 @@
     },
     "PHARM-003 Dispensing Summary Report": {
         "name": "PHARM-003 Dispensing Summary Report",
-        "type": "concatenated",
+        "type": "ERPGeneric",
 		"DHISProgram": true,
         "config": {
             "reports": [
