@@ -122,11 +122,11 @@ ORDER BY CASE WHEN Drug='Abacavir 300mg' 										THEN 1
 			  WHEN Drug='Ritonavir 100mg' 										THEN 15
 			  WHEN Drug='Tenofovir 300mg' 										THEN 16
 			  WHEN Drug='TDF-3TC 300/300mg' 									THEN 17
-			  WHEN Drug='1j=TDF-3TC-DTG 300/300/50mg (30)' 						THEN 18
-			  WHEN Drug='1j=TDF-3TC-DTG 300/300/50mg (90)' 						THEN 19
-			  WHEN Drug='1f=TDF-3TC-EFV 300/300/400mg (90)' 					THEN 20
-			  WHEN Drug='1f=TDF-3TC-EFV 300/300/400mg (30)' 					THEN 21
-			  WHEN Drug='1f=TDF-3TC-EFV 300/300/600mg (30)' 					THEN 22
+			  WHEN Drug='1j=TDF-3TC-DTG 300/300/50mg 300/300/50mg Tablet(s)' 		THEN 18
+			  WHEN Drug='1j=TDF-3TC-DTG 300/300/50mg 300/300/50mg Tablet(s) (90)' 	THEN 19
+			  WHEN Drug='1f=TDF-3TC-EFV 300/300/400mg 300/300/400mg Tablet(s)' 		THEN 20
+			  WHEN Drug='1f=TDF-3TC-EFV 300/300/400mg 300/300/400mg Tablet(s) (90)' THEN 21
+			  WHEN Drug='1f=TDF-3TC-EFV 300/300/600mg 300/300/600mg Tablet(s)' 		THEN 22
 			  WHEN Drug='Zidovudine 300mg' 										THEN 23
 			  WHEN Drug='Zidovudine 10mg/1ml Suspension' 						THEN 24
 			  WHEN Drug='AZT-3TC 300/150mg' 									THEN 25
