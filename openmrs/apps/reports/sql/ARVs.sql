@@ -143,15 +143,15 @@ SELECT  'Tenofovir 300mg','',0,NULL,0,0,0
 UNION ALL	
 SELECT  'TDF-3TC 300/300mg','',0,NULL,0,0,0
 UNION ALL	
-SELECT  '1j=TDF-3TC-DTG 300/300/50mg (30)','',0,NULL,0,0,0
+SELECT  '1j=TDF-3TC-DTG 300/300/50mg','',0,NULL,0,0,0
 UNION ALL	
 SELECT  '1j=TDF-3TC-DTG 300/300/50mg (90)','',0,NULL,0,0,0
 UNION ALL	
+SELECT  '1f=TDF-3TC-EFV 300/300/400mg','',0,NULL,0,0,0
+UNION ALL	
 SELECT  '1f=TDF-3TC-EFV 300/300/400mg (90)','',0,NULL,0,0,0
 UNION ALL	
-SELECT  '1f=TDF-3TC-EFV 300/300/400mg (30)','',0,NULL,0,0,0
-UNION ALL	
-SELECT  '1f=TDF-3TC-EFV 300/300/600mg (30)','',0,NULL,0,0,0
+SELECT  '1f=TDF-3TC-EFV 300/300/600mg','',0,NULL,0,0,0
 UNION ALL	
 SELECT  'Zidovudine 300mg','',0,NULL,0,0,0
 UNION ALL	
@@ -160,6 +160,30 @@ UNION ALL
 SELECT  'AZT-3TC 300/150mg','',0,NULL,0,0,0
 UNION ALL	
 SELECT  '1c=AZT-3TC-NVP 300/150/200mg','',0,NULL,0,0,0
+UNION ALL	
+SELECT  'Abacavir 60mg','',0,NULL,0,0,0
+UNION ALL	
+SELECT  'Abacavir/Lamivudine (ABC/3TC) - 120/60mg','',0,NULL,0,0,0
+UNION ALL	
+SELECT  'Darunavir 75mg','',0,NULL,0,0,0
+UNION ALL	
+SELECT  'Efavirenz 200mg','',0,NULL,0,0,0
+UNION ALL	
+SELECT  'Lopinavir and Ritonavir - 80mg/20ml','',0,NULL,0,0,0
+UNION ALL	
+SELECT  'Lopinavir and Ritonavir- 40/10mg','',0,NULL,0,0,0
+UNION ALL	
+SELECT  'Lopinavir and Ritonavir- 100/25mg','',0,NULL,0,0,0
+UNION ALL	
+SELECT  'Nevirapine mixture 50mg','',0,NULL,0,0,0
+UNION ALL	
+SELECT  'Nevirapine mixture 50mg/5ml','',0,NULL,0,0,0
+UNION ALL	
+SELECT  'Raltegravir 100mg 100mg','',0,NULL,0,0,0
+UNION ALL	
+SELECT  'AZT-3TC 60/30mg 60/30mg','',0,NULL,0,0,0
+UNION ALL	
+SELECT  '4c=AZT-3TC-NVP 60/30/50mg','',0,NULL,0,0,0
 ) AS all_agg
 GROUP BY Product_Name, Unit_of_Issue, Stock_Expiry_Date
 			  -- PART ONE
@@ -180,13 +204,25 @@ ORDER BY CASE WHEN Product_Name='Abacavir 300mg' 								THEN 1
 			  WHEN Product_Name='Ritonavir 100mg' 								THEN 15
 			  WHEN Product_Name='Tenofovir 300mg' 								THEN 16
 			  WHEN Product_Name='TDF-3TC 300/300mg' 							THEN 17
-			  WHEN Product_Name='1j=TDF-3TC-DTG 300/300/50mg (30)' 				THEN 18
-			  WHEN Product_Name='1j=TDF-3TC-DTG 300/300/50mg (90)' 				THEN 19
-			  WHEN Product_Name='1f=TDF-3TC-EFV 300/300/400mg (90)' 			THEN 20
-			  WHEN Product_Name='1f=TDF-3TC-EFV 300/300/400mg (30)' 			THEN 21
-			  WHEN Product_Name='1f=TDF-3TC-EFV 300/300/600mg (30)' 			THEN 22
-			  WHEN Product_Name='Zidovudine 300mg' 								THEN 23
-			  WHEN Product_Name='Zidovudine 10mg/1ml Suspension' 				THEN 24
-			  WHEN Product_Name='AZT-3TC 300/150mg' 							THEN 25
-			  WHEN Product_Name='1c=AZT-3TC-NVP 300/150/200mg' 					THEN 26
+			  WHEN Product_Name='1j=TDF-3TC-DTG 300/300/50mg ' 							THEN 18
+			  WHEN Product_Name='1j=TDF-3TC-DTG 300/300/50mg (90)' 						THEN 19
+			  WHEN Product_Name='1f=TDF-3TC-EFV 300/300/400mg' 							THEN 20
+			  WHEN Product_Name='1f=TDF-3TC-EFV 300/300/400mg (90)' 					THEN 21
+			  WHEN Product_Name='1f=TDF-3TC-EFV 300/300/600mg' 							THEN 22
+			  WHEN Product_Name='Zidovudine 300mg' 										THEN 23
+			  WHEN Product_Name='Zidovudine 10mg/1ml Suspension' 						THEN 24
+			  WHEN Product_Name='AZT-3TC 300/150mg' 									THEN 25
+			  WHEN Product_Name='1c=AZT-3TC-NVP 300/150/200mg' 							THEN 26
+			  WHEN Product_Name='Abacavir 60mg' 										THEN 27
+			  WHEN Product_Name='Abacavir/Lamivudine (ABC/3TC) - 120/60mg' 				THEN 28
+			  WHEN Product_Name='Darunavir 75mg' 										THEN 29
+			  WHEN Product_Name='Efavirenz 200mg' 										THEN 30
+			  WHEN Product_Name='Lopinavir and Ritonavir - 80mg/20ml' 					THEN 31
+			  WHEN Product_Name='Lopinavir and Ritonavir- 40/10mg' 						THEN 32
+			  WHEN Product_Name='Lopinavir and Ritonavir- 100/25mg' 					THEN 33
+			  WHEN Product_Name='Nevirapine mixture 50mg' 								THEN 34
+			  WHEN Product_Name='Nevirapine mixture 50mg/5ml' 							THEN 35 --MODIFY DHIS2 DATASET TO STORE ZERO DATA VALUES
+			  WHEN Product_Name='Raltegravir 100mg 100mg' 								THEN 36
+			  WHEN Product_Name='AZT-3TC 60/30mg 60/30mg' 								THEN 37
+			  WHEN Product_Name='4c=AZT-3TC-NVP 60/30/50mg' 							THEN 38
 		 END;
