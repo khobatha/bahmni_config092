@@ -947,7 +947,509 @@
                             "dataElement": "VFqMjruyGgr",
                             "row": 26,
                             "column": 7
+                            },
+
+
+                            {
+                            "_comment": "Abacavir 60mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "x93u8c6hKHU",
+                            "row": 27,
+                            "column": 3
                             }
+                            ,
+                            {
+                            "_comment": "Abacavir 60mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "x93u8c6hKHU",
+                            "row": 27,
+                            "column": 4
+                            }
+                            ,
+                            {
+                            "_comment": "Abacavir 60mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "x93u8c6hKHU",
+                            "row": 27,
+                            "column": 5
+                            }
+                            ,
+                            {
+                            "_comment": "Abacavir 60mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "x93u8c6hKHU",
+                            "row": 27,
+                            "column": 6
+                            }
+                            ,
+                            {
+                            "_comment": "Abacavir 60mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "x93u8c6hKHU",
+                            "row": 27,
+                            "column": 7
+                            }
+                            ,
+
+
+
+                            {
+                            "_comment": "Abacavir/Lamivudine (ABC/3TC) - 120/60mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "eZL2kOlyJu1",
+                            "row": 28,
+                            "column": 3
+                            }
+                            ,
+                            {
+                            "_comment": "Abacavir/Lamivudine (ABC/3TC) - 120/60mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "eZL2kOlyJu1",
+                            "row": 28,
+                            "column": 4
+                            }
+                            ,
+                            {
+                            "_comment": "Abacavir/Lamivudine (ABC/3TC) - 120/60mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "eZL2kOlyJu1",
+                            "row": 28,
+                            "column": 5
+                            }
+                            ,
+                            {
+                            "_comment": "Abacavir/Lamivudine (ABC/3TC) - 120/60mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "eZL2kOlyJu1",
+                            "row": 28,
+                            "column": 6
+                            }
+                            ,
+                            {
+                            "_comment": "Abacavir/Lamivudine (ABC/3TC) - 120/60mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "eZL2kOlyJu1",
+                            "row": 28,
+                            "column": 7
+                            }
+                            ,
+
+
+                            {
+                            "_comment": "Darunavir 75mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "Ch6spriXmGq",
+                            "row": 29,
+                            "column": 3
+                            }
+                            ,
+                            {
+                            "_comment": "Darunavir 75mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "Ch6spriXmGq",
+                            "row": 29,
+                            "column": 4
+                            }
+                            ,
+                            {
+                            "_comment": "Darunavir 75mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "Ch6spriXmGq",
+                            "row": 29,
+                            "column": 5
+                            }
+                            ,
+                            {
+                            "_comment": "Darunavir 75mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "Ch6spriXmGq",
+                            "row": 29,
+                            "column": 6
+                            }
+                            ,
+                            {
+                            "_comment": "Darunavir 75mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "Ch6spriXmGq",
+                            "row": 29,
+                            "column": 7
+                            }
+                            ,
+
+
+                            {
+                            "_comment": "Efavirenz 200mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "BXABmsjiaTT",
+                            "row": 30,
+                            "column": 3
+                            }
+                            ,
+                            {
+                            "_comment": "Efavirenz 200mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "BXABmsjiaTT",
+                            "row": 30,
+                            "column": 4
+                            }
+                            ,
+                            {
+                            "_comment": "Efavirenz 200mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "BXABmsjiaTT",
+                            "row": 30,
+                            "column": 5
+                            }
+                            ,
+                            {
+                            "_comment": "Efavirenz 200mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "BXABmsjiaTT",
+                            "row": 30,
+                            "column": 6
+                            }
+                            ,
+                            {
+                            "_comment": "Efavirenz 200mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "BXABmsjiaTT",
+                            "row": 30,
+                            "column": 7
+                            }
+                            ,
+
+
+                            {
+                            "_comment": "Lopinavir and Ritonavir - 80mg/20ml",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "qbpMpxmMmN8",
+                            "row": 31,
+                            "column": 3
+                            }
+                            ,
+                            {
+                            "_comment": "Lopinavir and Ritonavir - 80mg/20ml",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "qbpMpxmMmN8",
+                            "row": 31,
+                            "column": 4
+                            }
+                            ,
+                            {
+                            "_comment": "Lopinavir and Ritonavir - 80mg/20ml",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "qbpMpxmMmN8",
+                            "row": 31,
+                            "column": 5
+                            }
+                            ,
+                            {
+                            "_comment": "Lopinavir and Ritonavir - 80mg/20ml",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "qbpMpxmMmN8",
+                            "row": 31,
+                            "column": 6
+                            }
+                            ,
+                            {
+                            "_comment": "Lopinavir and Ritonavir - 80mg/20ml",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "qbpMpxmMmN8",
+                            "row": 31,
+                            "column": 7
+                            }
+                            ,
+
+
+                            {
+                            "_comment": "Lopinavir and Ritonavir- 40/10mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "HEniMhImtdy",
+                            "row": 32,
+                            "column": 3
+                            }
+                            ,
+                             {
+                            "_comment": "Lopinavir and Ritonavir- 40/10mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "HEniMhImtdy",
+                            "row": 32,
+                            "column": 4
+                            }
+                            ,
+                             {
+                            "_comment": "Lopinavir and Ritonavir- 40/10mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "HEniMhImtdy",
+                            "row": 32,
+                            "column": 5
+                            }
+                            ,
+                             {
+                            "_comment": "Lopinavir and Ritonavir- 40/10mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "HEniMhImtdy",
+                            "row": 32,
+                            "column": 6
+                            }
+                            ,
+                             {
+                            "_comment": "Lopinavir and Ritonavir- 40/10mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "HEniMhImtdy",
+                            "row": 32,
+                            "column": 7
+                            }
+                            ,
+
+
+
+                            {
+                            "_comment": "Lopinavir and Ritonavir- 100/25mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "NY7rMoBwHVs",
+                            "row": 33,
+                            "column": 3
+                            }
+                            ,
+                            {
+                            "_comment": "Lopinavir and Ritonavir- 100/25mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "NY7rMoBwHVs",
+                            "row": 33,
+                            "column": 4
+                            }
+                            ,
+                            {
+                            "_comment": "Lopinavir and Ritonavir- 100/25mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "NY7rMoBwHVs",
+                            "row": 33,
+                            "column": 5
+                            }
+                            ,
+                            {
+                            "_comment": "Lopinavir and Ritonavir- 100/25mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "NY7rMoBwHVs",
+                            "row": 33,
+                            "column": 6
+                            }
+                            ,
+                            {
+                            "_comment": "Lopinavir and Ritonavir- 100/25mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "NY7rMoBwHVs",
+                            "row": 33,
+                            "column": 7
+                            }
+                            ,
+
+
+                            {
+                            "_comment": "Nevirapine mixture 50mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "X0CrTdBZHMq",
+                            "row": 34,
+                            "column": 3
+                            }
+                            ,
+                            {
+                            "_comment": "Nevirapine mixture 50mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "X0CrTdBZHMq",
+                            "row": 34,
+                            "column": 4
+                            }
+                            ,
+                            {
+                            "_comment": "Nevirapine mixture 50mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "X0CrTdBZHMq",
+                            "row": 34,
+                            "column": 5
+                            }
+                            ,
+                            {
+                            "_comment": "Nevirapine mixture 50mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "X0CrTdBZHMq",
+                            "row": 34,
+                            "column": 6
+                            }
+                            ,
+                            {
+                            "_comment": "Nevirapine mixture 50mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "X0CrTdBZHMq",
+                            "row": 34,
+                            "column": 7
+                            }
+                            ,
+
+
+                            {
+                            "_comment": "Nevirapine mixture 50mg/5ml",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "OzGeyKM1zWE",
+                            "row": 35,
+                            "column": 3
+                            }
+                            ,
+                            {
+                            "_comment": "Nevirapine mixture 50mg/5ml",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "OzGeyKM1zWE",
+                            "row": 35,
+                            "column": 4
+                            }
+                            ,
+                            {
+                            "_comment": "Nevirapine mixture 50mg/5ml",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "OzGeyKM1zWE",
+                            "row": 35,
+                            "column": 5
+                            }
+                            ,
+                            {
+                            "_comment": "Nevirapine mixture 50mg/5ml",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "OzGeyKM1zWE",
+                            "row": 35,
+                            "column": 6
+                            }
+                            ,
+                            {
+                            "_comment": "Nevirapine mixture 50mg/5ml",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "OzGeyKM1zWE",
+                            "row": 35,
+                            "column": 7
+                            }
+                            ,
+
+
+                            {
+                            "_comment": "Raltegravir 100mg 100mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "oixGZhfOZcE",
+                            "row": 36,
+                            "column": 3
+                            }
+                            ,
+                            {
+                            "_comment": "Raltegravir 100mg 100mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "oixGZhfOZcE",
+                            "row": 36,
+                            "column": 4
+                            }
+                            ,
+                            {
+                            "_comment": "Raltegravir 100mg 100mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "oixGZhfOZcE",
+                            "row": 36,
+                            "column": 5
+                            }
+                            ,
+                            {
+                            "_comment": "Raltegravir 100mg 100mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "oixGZhfOZcE",
+                            "row": 36,
+                            "column": 6
+                            }
+                            ,
+                            {
+                            "_comment": "Raltegravir 100mg 100mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "oixGZhfOZcE",
+                            "row": 36,
+                            "column": 7
+                            }
+                            ,
+
+
+                            {
+                            "_comment": "AZT-3TC 60/30mg 60/30mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "egfarvkKrKi",
+                            "row": 37,
+                            "column": 3
+                            }
+                            ,
+                            {
+                            "_comment": "AZT-3TC 60/30mg 60/30mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "egfarvkKrKi",
+                            "row": 37,
+                            "column": 4
+                            }
+                            ,
+                            {
+                            "_comment": "AZT-3TC 60/30mg 60/30mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "egfarvkKrKi",
+                            "row": 37,
+                            "column": 5
+                            }
+                            ,
+                            {
+                            "_comment": "AZT-3TC 60/30mg 60/30mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "egfarvkKrKi",
+                            "row": 37,
+                            "column": 6
+                            }
+                            ,
+                            {
+                            "_comment": "AZT-3TC 60/30mg 60/30mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "egfarvkKrKi",
+                            "row": 37,
+                            "column": 7
+                            }
+                            ,
+
+
+                            {
+                            "_comment": "4c=AZT-3TC-NVP 60/30/50mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "Qx28rkLSy5u",
+                            "row": 38,
+                            "column": 3
+                            },
+                            {
+                            "_comment": "4c=AZT-3TC-NVP 60/30/50mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "Qx28rkLSy5u",
+                            "row": 38,
+                            "column": 4
+                            },
+                            {
+                            "_comment": "4c=AZT-3TC-NVP 60/30/50mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "Qx28rkLSy5u",
+                            "row": 38,
+                            "column": 5
+                            },
+                            {
+                            "_comment": "4c=AZT-3TC-NVP 60/30/50mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "Qx28rkLSy5u",
+                            "row": 38,
+                            "column": 6
+                            },
+                            {
+                            "_comment": "4c=AZT-3TC-NVP 60/30/50mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "Qx28rkLSy5u",
+                            "row": 38,
+                            "column": 7
+                            },
+
                   ]
         }
     }
