@@ -111,6 +111,42 @@
                             "dataElement": "z7Zj8Jk7ULg",
                             "row": 3,
                             "column": 7
+                            },
+
+                            {
+                            "_comment": "Atazanavir/Ritonavir (ATV/RTV) - 300/100mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "gCwKqtTWu6V",
+                            "row": 4,
+                            "column": 3
+                            },
+                            {
+                            "_comment": "Atazanavir/Ritonavir (ATV/RTV) - 300/100mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "ZzeEGJQXU13",
+                            "row": 4,
+                            "column": 4
+                            },
+                            {
+                            "_comment": "Atazanavir/Ritonavir (ATV/RTV) - 300/100mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "h2R94uOqMZ9",
+                            "row": 4,
+                            "column": 5
+                            },
+                            {
+                            "_comment": "Atazanavir/Ritonavir (ATV/RTV) - 300/100mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "vFJcpQLec2S",
+                            "row": 4,
+                            "column": 6
+                            },
+                            {
+                            "_comment": "Atazanavir/Ritonavir (ATV/RTV) - 300/100mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "fIhxcPzM3dK",
+                            "row": 4,
+                            "column": 7
                             }
                   ]
         }
