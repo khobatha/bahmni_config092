@@ -128,7 +128,7 @@ ORDER BY CASE WHEN Drug='Abacavir 300mg' 										THEN 1
 			  WHEN Drug='1f=TDF-3TC-EFV 300/300/400mg (90)' 					THEN 21
 			  WHEN Drug='1f=TDF-3TC-EFV 300/300/600mg' 							THEN 22
 			  WHEN Drug='Zidovudine 300mg' 										THEN 23
-			  WHEN Drug='Zidovudine 10mg/1ml Suspension' 						THEN 24
+			  WHEN Drug='Zidovudine 10mg/1ml Suspension' 						THEN 24 --MODIFY DHIS2 DATASET TO STORE ZERO DATA VALUES
 			  WHEN Drug='AZT-3TC 300/150mg' 									THEN 25
 			  WHEN Drug='1c=AZT-3TC-NVP 300/150/200mg' 							THEN 26
 			  WHEN Drug='Abacavir 60mg' 										THEN 27
