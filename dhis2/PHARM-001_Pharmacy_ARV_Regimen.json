@@ -39,7 +39,43 @@
                           "dataElement": "nuLm7iGNiYE",
                           "row": 1,
                           "column": 7
-                          }
+                          },
+
+                          {
+                            "_comment": "Abacavir/Lamivudine 600/300mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "l1a3keYWBv6",
+                            "row": 2,
+                            "column": 3
+                            },
+                            {
+                            "_comment": "Abacavir/Lamivudine 600/300mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "EqmfgqgIRyi",
+                            "row": 2,
+                            "column": 4
+                            },
+                            {
+                            "_comment": "Abacavir/Lamivudine 600/300mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "G7ETgCetTqn",
+                            "row": 2,
+                            "column": 5
+                            },
+                            {
+                            "_comment": "Abacavir/Lamivudine 600/300mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "wffnMKVJ6UZ",
+                            "row": 2,
+                            "column": 6
+                            },
+                            {
+                            "_comment": "Abacavir/Lamivudine 600/300mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "t05Xhq75thz",
+                            "row": 2,
+                            "column": 7
+                            }
                   ]
         }
     }
