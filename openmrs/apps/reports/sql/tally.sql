@@ -139,7 +139,7 @@ ORDER BY CASE WHEN Drug='Abacavir 300mg' 										THEN 1
 			  WHEN Drug='Lopinavir and Ritonavir- 40/10mg' 						THEN 32
 			  WHEN Drug='Lopinavir and Ritonavir- 100/25mg' 					THEN 33
 			  WHEN Drug='Nevirapine mixture 50mg' 								THEN 34
-			  WHEN Drug='Nevirapine mixture 50mg/5ml' 							THEN 35
+			  WHEN Drug='Nevirapine mixture 50mg/5ml' 							THEN 35 --MODIFY DHIS2 DATASET TO STORE ZERO DATA VALUES
 			  WHEN Drug='Raltegravir 100mg 100mg' 								THEN 36
 			  WHEN Drug='AZT-3TC 60/30mg 60/30mg' 								THEN 37
 			  WHEN Drug='4c=AZT-3TC-NVP 60/30/50mg' 							THEN 38
