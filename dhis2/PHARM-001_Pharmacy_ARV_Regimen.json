@@ -147,6 +147,806 @@
                             "dataElement": "fIhxcPzM3dK",
                             "row": 4,
                             "column": 7
+                            },
+
+                            {
+                            "_comment": "Darunavir (DRV)  300mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "oLjTbC0W5mb",
+                            "row": 5,
+                            "column": 3
+                            },
+                            {
+                            "_comment": "Darunavir (DRV)  300mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "fy4dHvpbHC4",
+                            "row": 5,
+                            "column": 4
+                            },
+                            {
+                            "_comment": "Darunavir (DRV)  300mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "fsrhKFCkO1I",
+                            "row": 5,
+                            "column": 5
+                            },
+                            {
+                            "_comment": "Darunavir (DRV)  300mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "xxHQE9jnnkp",
+                            "row": 5,
+                            "column": 6
+                            },
+                            {
+                            "_comment": "Darunavir (DRV)  300mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "z7Zj8Jk7ULg",
+                            "row": 5,
+                            "column": 7
+                            },
+                            
+                            {
+                            "_comment": "Darunavir  600mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "oLjTbC0W5mb",
+                            "row": 6,
+                            "column": 3
+                            },
+                            {
+                            "_comment": "Darunavir  600mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "fy4dHvpbHC4",
+                            "row": 6,
+                            "column": 4
+                            },
+                            {
+                            "_comment": "Darunavir  600mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "fsrhKFCkO1I",
+                            "row": 6,
+                            "column": 5
+                            },
+                            {
+                            "_comment": "Darunavir  600mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "xxHQE9jnnkp",
+                            "row": 6,
+                            "column": 6
+                            },
+                            {
+                            "_comment": "Darunavir  600mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "z7Zj8Jk7ULg",
+                            "row": 6,
+                            "column": 7
+                            },
+                            
+                            
+                            {
+                            "_comment": "Dolutegravir (DTG)  50mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "oLjTbC0W5mb",
+                            "row": 7,
+                            "column": 3
+                            },
+                            {
+                            "_comment": "Dolutegravir (DTG)  50mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "fy4dHvpbHC4",
+                            "row": 7,
+                            "column": 4
+                            },
+                            {
+                            "_comment": "Dolutegravir (DTG)  50mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "fsrhKFCkO1I",
+                            "row": 7,
+                            "column": 5
+                            },
+                            {
+                            "_comment": "Dolutegravir (DTG)  50mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "xxHQE9jnnkp",
+                            "row": 7,
+                            "column": 6
+                            },
+                            {
+                            "_comment": "Dolutegravir (DTG)  50mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "z7Zj8Jk7ULg",
+                            "row": 7,
+                            "column": 7
+                            },
+                            
+                            
+                            {
+                            "_comment": "Dolutegravir (DTG)  10mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "oLjTbC0W5mb",
+                            "row": 8,
+                            "column": 3
+                            },
+                            {
+                            "_comment": "Dolutegravir (DTG)  10mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "fy4dHvpbHC4",
+                            "row": 8,
+                            "column": 4
+                            },
+                            {
+                            "_comment": "Dolutegravir (DTG)  10mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "fsrhKFCkO1I",
+                            "row": 8,
+                            "column": 5
+                            },
+                            {
+                            "_comment": "Dolutegravir (DTG)  10mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "xxHQE9jnnkp",
+                            "row": 8,
+                            "column": 6
+                            },
+                            {
+                            "_comment": "Dolutegravir (DTG)  10mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "z7Zj8Jk7ULg",
+                            "row": 8,
+                            "column": 7
+                            },
+                            
+                            
+                            {
+                            "_comment": "Efavirenz- 600mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "oLjTbC0W5mb",
+                            "row": 9,
+                            "column": 3
+                            },
+                            {
+                            "_comment": "Efavirenz- 600mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "fy4dHvpbHC4",
+                            "row": 9,
+                            "column": 4
+                            },
+                            {
+                            "_comment": "Efavirenz- 600mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "fsrhKFCkO1I",
+                            "row": 9,
+                            "column": 5
+                            },
+                            {
+                            "_comment": "Efavirenz- 600mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "xxHQE9jnnkp",
+                            "row": 9,
+                            "column": 6
+                            },
+                            {
+                            "_comment": "Efavirenz- 600mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "z7Zj8Jk7ULg",
+                            "row": 9,
+                            "column": 7
+                            },
+                            
+                            
+                            {
+                            "_comment": "Etravirine- 100mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "oLjTbC0W5mb",
+                            "row": 10,
+                            "column": 3
+                            },
+                            {
+                            "_comment": "Etravirine- 100mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "fy4dHvpbHC4",
+                            "row": 10,
+                            "column": 4
+                            },
+                            {
+                            "_comment": "Etravirine- 100mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "fsrhKFCkO1I",
+                            "row": 10,
+                            "column": 5
+                            },
+                            {
+                            "_comment": "Etravirine- 100mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "xxHQE9jnnkp",
+                            "row": 10,
+                            "column": 6
+                            },
+                            {
+                            "_comment": "Etravirine- 100mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "z7Zj8Jk7ULg",
+                            "row": 10,
+                            "column": 7
+                            },
+                            
+                            
+                            {
+                            "_comment": "Lamivudine - 150mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "oLjTbC0W5mb",
+                            "row": 11,
+                            "column": 3
+                            },
+                            {
+                            "_comment": "Lamivudine - 150mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "fy4dHvpbHC4",
+                            "row": 11,
+                            "column": 4
+                            },
+                            {
+                            "_comment": "Lamivudine - 150mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "fsrhKFCkO1I",
+                            "row": 11,
+                            "column": 5
+                            },
+                            {
+                            "_comment": "Lamivudine - 150mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "xxHQE9jnnkp",
+                            "row": 11,
+                            "column": 6
+                            },
+                            {
+                            "_comment": "Lamivudine - 150mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "z7Zj8Jk7ULg",
+                            "row": 11,
+                            "column": 7
+                            },
+                            
+                            
+                            {
+                            "_comment": "Lopinavir/Ritonavir - 200/50mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "oLjTbC0W5mb",
+                            "row": 12,
+                            "column": 3
+                            },
+                            {
+                            "_comment": "Lopinavir/Ritonavir - 200/50mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "fy4dHvpbHC4",
+                            "row": 12,
+                            "column": 4
+                            },
+                            {
+                            "_comment": "Lopinavir/Ritonavir - 200/50mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "fsrhKFCkO1I",
+                            "row": 12,
+                            "column": 5
+                            },
+                            {
+                            "_comment": "Lopinavir/Ritonavir - 200/50mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "xxHQE9jnnkp",
+                            "row": 12,
+                            "column": 6
+                            },
+                            {
+                            "_comment": "Lopinavir/Ritonavir - 200/50mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "z7Zj8Jk7ULg",
+                            "row": 12,
+                            "column": 7
+                            },
+                            
+                            
+                            {
+                            "_comment": "Nevirapine- 200 mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "oLjTbC0W5mb",
+                            "row": 13,
+                            "column": 3
+                            },
+                            {
+                            "_comment": "Nevirapine- 200 mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "fy4dHvpbHC4",
+                            "row": 13,
+                            "column": 4
+                            },
+                            {
+                            "_comment": "Nevirapine- 200 mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "fsrhKFCkO1I",
+                            "row": 13,
+                            "column": 5
+                            },
+                            {
+                            "_comment": "Nevirapine- 200 mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "xxHQE9jnnkp",
+                            "row": 13,
+                            "column": 6
+                            },
+                            {
+                            "_comment": "Nevirapine- 200 mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "z7Zj8Jk7ULg",
+                            "row": 13,
+                            "column": 7
+                            },
+                            
+                            
+                            {
+                            "_comment": "Raltegravir- 400mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "oLjTbC0W5mb",
+                            "row": 14,
+                            "column": 3
+                            },
+                            {
+                            "_comment": "Raltegravir- 400mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "fy4dHvpbHC4",
+                            "row": 14,
+                            "column": 4
+                            },
+                            {
+                            "_comment": "Raltegravir- 400mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "fsrhKFCkO1I",
+                            "row": 14,
+                            "column": 5
+                            },
+                            {
+                            "_comment": "Raltegravir- 400mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "xxHQE9jnnkp",
+                            "row": 14,
+                            "column": 6
+                            },
+                            {
+                            "_comment": "Raltegravir- 400mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "z7Zj8Jk7ULg",
+                            "row": 14,
+                            "column": 7
+                            },
+                            
+                            {
+                            "_comment": "Ritonavir- 100mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "oLjTbC0W5mb",
+                            "row": 15,
+                            "column": 3
+                            },
+                            {
+                            "_comment": "Ritonavir- 100mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "fy4dHvpbHC4",
+                            "row": 15,
+                            "column": 4
+                            },
+                            {
+                            "_comment": "Ritonavir- 100mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "fsrhKFCkO1I",
+                            "row": 15,
+                            "column": 5
+                            },
+                            {
+                            "_comment": "Ritonavir- 100mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "xxHQE9jnnkp",
+                            "row": 15,
+                            "column": 6
+                            },
+                            {
+                            "_comment": "Ritonavir- 100mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "z7Zj8Jk7ULg",
+                            "row": 15,
+                            "column": 7
+                            },
+                            
+                            {
+                            "_comment": "Tenofovir- 300mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "oLjTbC0W5mb",
+                            "row": 16,
+                            "column": 3
+                            },
+                            {
+                            "_comment": "Tenofovir- 300mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "fy4dHvpbHC4",
+                            "row": 16,
+                            "column": 4
+                            },
+                            {
+                            "_comment": "Tenofovir- 300mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "fsrhKFCkO1I",
+                            "row": 16,
+                            "column": 5
+                            },
+                            {
+                            "_comment": "Tenofovir- 300mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "xxHQE9jnnkp",
+                            "row": 16,
+                            "column": 6
+                            },
+                            {
+                            "_comment": "Tenofovir- 300mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "z7Zj8Jk7ULg",
+                            "row": 16,
+                            "column": 7
+                            },
+                            
+                            {
+                            "_comment": "Tenofovir/Lamivudine- 300/300mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "oLjTbC0W5mb",
+                            "row": 17,
+                            "column": 3
+                            },
+                            {
+                            "_comment": "Tenofovir/Lamivudine- 300/300mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "fy4dHvpbHC4",
+                            "row": 17,
+                            "column": 4
+                            },
+                            {
+                            "_comment": "Tenofovir/Lamivudine- 300/300mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "fsrhKFCkO1I",
+                            "row": 17,
+                            "column": 5
+                            },
+                            {
+                            "_comment": "Tenofovir/Lamivudine- 300/300mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "xxHQE9jnnkp",
+                            "row": 17,
+                            "column": 6
+                            },
+                            {
+                            "_comment": "Tenofovir/Lamivudine- 300/300mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "z7Zj8Jk7ULg",
+                            "row": 17,
+                            "column": 7
+                            },
+                            
+                            {
+                            "_comment": "Tenofovir/Lamivudine/Dolutegravir 300/300/50mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "oLjTbC0W5mb",
+                            "row": 18,
+                            "column": 3
+                            },
+                            {
+                            "_comment": "Tenofovir/Lamivudine/Dolutegravir 300/300/50mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "fy4dHvpbHC4",
+                            "row": 18,
+                            "column": 4
+                            },
+                            {
+                            "_comment": "Tenofovir/Lamivudine/Dolutegravir 300/300/50mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "fsrhKFCkO1I",
+                            "row": 18,
+                            "column": 5
+                            },
+                            {
+                            "_comment": "Tenofovir/Lamivudine/Dolutegravir 300/300/50mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "xxHQE9jnnkp",
+                            "row": 18,
+                            "column": 6
+                            },
+                            {
+                            "_comment": "Tenofovir/Lamivudine/Dolutegravir 300/300/50mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "z7Zj8Jk7ULg",
+                            "row": 18,
+                            "column": 7
+                            },
+                            
+                            {
+                            "_comment": "Tenofovir/Lamivudine/Dolutegravir (TDF/3TC/DTG) - 300/300/50mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "oLjTbC0W5mb",
+                            "row": 19,
+                            "column": 3
+                            },
+                            {
+                            "_comment": "Tenofovir/Lamivudine/Dolutegravir (TDF/3TC/DTG) - 300/300/50mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "fy4dHvpbHC4",
+                            "row": 19,
+                            "column": 4
+                            },
+                            {
+                            "_comment": "Tenofovir/Lamivudine/Dolutegravir (TDF/3TC/DTG) - 300/300/50mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "fsrhKFCkO1I",
+                            "row": 19,
+                            "column": 5
+                            },
+                            {
+                            "_comment": "Tenofovir/Lamivudine/Dolutegravir (TDF/3TC/DTG) - 300/300/50mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "xxHQE9jnnkp",
+                            "row": 19,
+                            "column": 6
+                            },
+                            {
+                            "_comment": "Tenofovir/Lamivudine/Dolutegravir (TDF/3TC/DTG) - 300/300/50mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "z7Zj8Jk7ULg",
+                            "row": 19,
+                            "column": 7
+                            },
+                            
+                            {
+                            "_comment": "Tenofovir/Lamivudine/ Efavirenz- 300/300/400mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "oLjTbC0W5mb",
+                            "row": 20,
+                            "column": 3
+                            },
+                            {
+                            "_comment": "Tenofovir/Lamivudine/ Efavirenz- 300/300/400mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "fy4dHvpbHC4",
+                            "row": 20,
+                            "column": 4
+                            },
+                            {
+                            "_comment": "Tenofovir/Lamivudine/ Efavirenz- 300/300/400mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "fsrhKFCkO1I",
+                            "row": 20,
+                            "column": 5
+                            },
+                            {
+                            "_comment": "Tenofovir/Lamivudine/ Efavirenz- 300/300/400mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "xxHQE9jnnkp",
+                            "row": 20,
+                            "column": 6
+                            },
+                            {
+                            "_comment": "Tenofovir/Lamivudine/ Efavirenz- 300/300/400mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "z7Zj8Jk7ULg",
+                            "row": 20,
+                            "column": 7
+                            },
+                            
+                            {
+                            "_comment": "Tenofovir/Lamivudine/ Efavirenz- 300/300/400mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "oLjTbC0W5mb",
+                            "row": 21,
+                            "column": 3
+                            },
+                            {
+                            "_comment": "Tenofovir/Lamivudine/ Efavirenz- 300/300/400mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "fy4dHvpbHC4",
+                            "row": 21,
+                            "column": 4
+                            },
+                            {
+                            "_comment": "Tenofovir/Lamivudine/ Efavirenz- 300/300/400mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "fsrhKFCkO1I",
+                            "row": 21,
+                            "column": 5
+                            },
+                            {
+                            "_comment": "Tenofovir/Lamivudine/ Efavirenz- 300/300/400mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "xxHQE9jnnkp",
+                            "row": 21,
+                            "column": 6
+                            },
+                            {
+                            "_comment": "Tenofovir/Lamivudine/ Efavirenz- 300/300/400mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "z7Zj8Jk7ULg",
+                            "row": 21,
+                            "column": 7
+                            },
+                            
+                            {
+                            "_comment": "Tenofovir/Lamivudine/ Efavirenz- 300/300/600mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "oLjTbC0W5mb",
+                            "row": 22,
+                            "column": 3
+                            },
+                            {
+                            "_comment": "Tenofovir/Lamivudine/ Efavirenz- 300/300/600mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "fy4dHvpbHC4",
+                            "row": 22,
+                            "column": 4
+                            },
+                            {
+                            "_comment": "Tenofovir/Lamivudine/ Efavirenz- 300/300/600mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "fsrhKFCkO1I",
+                            "row": 22,
+                            "column": 5
+                            },
+                            {
+                            "_comment": "Tenofovir/Lamivudine/ Efavirenz- 300/300/600mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "xxHQE9jnnkp",
+                            "row": 22,
+                            "column": 6
+                            },
+                            {
+                            "_comment": "Tenofovir/Lamivudine/ Efavirenz- 300/300/600mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "z7Zj8Jk7ULg",
+                            "row": 22,
+                            "column": 7
+                            },
+                            
+                            {
+                            "_comment": "Zidovudine 300mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "oLjTbC0W5mb",
+                            "row": 23,
+                            "column": 3
+                            },
+                            {
+                            "_comment": "Zidovudine 300mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "fy4dHvpbHC4",
+                            "row": 23,
+                            "column": 4
+                            },
+                            {
+                            "_comment": "Zidovudine 300mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "fsrhKFCkO1I",
+                            "row": 23,
+                            "column": 5
+                            },
+                            {
+                            "_comment": "Zidovudine 300mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "xxHQE9jnnkp",
+                            "row": 23,
+                            "column": 6
+                            },
+                            {
+                            "_comment": "Zidovudine 300mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "z7Zj8Jk7ULg",
+                            "row": 23,
+                            "column": 7
+                            },
+                            
+                            {
+                            "_comment": "Zidovudine 10mg/1ml suspension",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "oLjTbC0W5mb",
+                            "row": 24,
+                            "column": 3
+                            },
+                            {
+                            "_comment": "Zidovudine 10mg/1ml suspension",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "fy4dHvpbHC4",
+                            "row": 24,
+                            "column": 4
+                            },
+                            {
+                            "_comment": "Zidovudine 10mg/1ml suspension",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "fsrhKFCkO1I",
+                            "row": 24,
+                            "column": 5
+                            },
+                            {
+                            "_comment": "Zidovudine 10mg/1ml suspension",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "xxHQE9jnnkp",
+                            "row": 24,
+                            "column": 6
+                            },
+                            {
+                            "_comment": "Zidovudine 10mg/1ml suspension",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "z7Zj8Jk7ULg",
+                            "row": 24,
+                            "column": 7
+                            },
+                            
+                            {
+                            "_comment": "Zidovudine/ Lamivudine- 300/150mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "oLjTbC0W5mb",
+                            "row": 25,
+                            "column": 3
+                            },
+                            {
+                            "_comment": "Zidovudine/ Lamivudine- 300/150mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "fy4dHvpbHC4",
+                            "row": 25,
+                            "column": 4
+                            },
+                            {
+                            "_comment": "Zidovudine/ Lamivudine- 300/150mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "fsrhKFCkO1I",
+                            "row": 25,
+                            "column": 5
+                            },
+                            {
+                            "_comment": "Zidovudine/ Lamivudine- 300/150mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "xxHQE9jnnkp",
+                            "row": 25,
+                            "column": 6
+                            },
+                            {
+                            "_comment": "Zidovudine/ Lamivudine- 300/150mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "z7Zj8Jk7ULg",
+                            "row": 25,
+                            "column": 7
+                            },
+                            
+                            {
+                            "_comment": "Zidovudine/Lamivudine/ Nevirapine 300/150/200mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "oLjTbC0W5mb",
+                            "row": 26,
+                            "column": 3
+                            },
+                            {
+                            "_comment": "Zidovudine/Lamivudine/ Nevirapine 300/150/200mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "fy4dHvpbHC4",
+                            "row": 26,
+                            "column": 4
+                            },
+                            {
+                            "_comment": "Zidovudine/Lamivudine/ Nevirapine 300/150/200mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "fsrhKFCkO1I",
+                            "row": 26,
+                            "column": 5
+                            },
+                            {
+                            "_comment": "Zidovudine/Lamivudine/ Nevirapine 300/150/200mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "xxHQE9jnnkp",
+                            "row": 26,
+                            "column": 6
+                            },
+                            {
+                            "_comment": "Zidovudine/Lamivudine/ Nevirapine 300/150/200mg",
+                            "categoryOptionCombo": "tUiK0vIsDaX",
+                            "dataElement": "z7Zj8Jk7ULg",
+                            "row": 26,
+                            "column": 7
                             }
                   ]
         }
