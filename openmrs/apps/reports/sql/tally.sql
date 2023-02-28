@@ -102,7 +102,7 @@ SELECT  'Raltegravir 100mg 100mg',0,0
 UNION ALL	
 SELECT  'AZT-3TC 60/30mg 60/30mg',0,0
 UNION ALL	
-SELECT  '4c=AZT-3TC-NVP 60/30/50mg 60/30/50mg',0,0
+SELECT  '4c=AZT-3TC-NVP 60/30/50mg',0,0
 ) as all_agg
 GROUP by Drug
 ORDER BY CASE WHEN Drug='Abacavir 300mg' 										THEN 1
