@@ -1,4 +1,12 @@
-SELECT distinct stock_move.name Product_Name,issue.name Unit_of_Issue,stock_on_hand,Expiry_Date,Quantity_expired_and_damaged,Quantity_Received,stock_at_last_reporting_period
+SELECT Product_Name, Unit_of_Issue,
+--	 CASE WHEN Product_Name IS NULL THEN 0 ELSE (SUM(CASE WHEN stock_on_hand>0 THEN stock_on_hand ELSE 0 END)) END AS Qty_Stock_on_Hand,
+--	 CASE WHEN Expiry_Date  IS NULL THEN 0 ELSE Expiry_Date END AS Stock_Expiry_Date,
+--	 CASE WHEN Product_Name IS NULL THEN 0 ELSE (SUM(CASE WHEN Quantity_expired_and_damaged>0 THEN Quantity_expired_and_damaged ELSE 0 END)) END AS Qty_Expired_and_damaged,
+--     CASE WHEN Product_Name IS NULL THEN 0 ELSE (SUM(CASE WHEN Quantity_Received>0 THEN Quantity_Received ELSE 0 END)) END AS Qty_Received,
+--     CASE WHEN Product_Name IS NULL THEN 0 ELSE (SUM(CASE WHEN stock_at_last_reporting_period>0 THEN stock_at_last_reporting_period ELSE 0 END)) END AS Qty_stock_at_last_reporting_period
+FROM
+
+(SELECT distinct stock_move.name Product_Name,issue.name Unit_of_Issue,stock_on_hand,Expiry_Date,Quantity_expired_and_damaged,Quantity_Received,stock_at_last_reporting_period
 FROM stock_move 
 LEFT OUTER JOIN
    ( -- PRODUCT NAME
@@ -96,3 +104,7 @@ WHERE CAST(sq.create_date AS TIMESTAMP) = maxdate
 AND sq.write_date >= CAST('#startDate#' AS DATE)
 AND sq.write_date <= CAST('#endDate#' AS DATE)
 )on_hand_balance ON stock_move.product_id = on_hand_balance.product_id 
+GROUP BY stock_move.name, issue.name, on_hand.stock_on_hand, expiry.expiry_date, damaged.quantity_expired_and_damaged,received.quantity_received,on_hand_balance.stock_at_last_reporting_period
+)
+AS all_agg
+GROUP BY Product_Name, Unit_of_Issue, Stock_Expiry_Date
