@@ -4,8 +4,8 @@ SELECT Drug,
 FROM
 
 (
-SELECT sm.name as Drug,CAST(sum(sol.qty_delivered) AS INTEGER) as qty_dispensed_units,
-CAST(sum(stock_on_hand) AS INTEGER)  as qty_stock_on_hand
+SELECT sm.name as Drug,CAST(sum(sol.qty_delivered) AS BIGINT) as qty_dispensed_units,
+CAST(sum(stock_on_hand) AS BIGINT)  as qty_stock_on_hand
 FROM stock_move sm
 LEFT OUTER JOIN sale_order_line sol ON  sm.product_id = sol.product_id AND sol.state = 'sale'
 LEFT OUTER JOIN purchase_order_line pol ON sm.product_id = pol.product_id AND sol.state = 'purchase'
