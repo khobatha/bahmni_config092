@@ -1,4 +1,4 @@
-SELECT Product_description, sum(Stock_on_hand) as "Stock_on_Hand", min(Expiry_Date) as "Expiry Date", sum(Quantity_expired_and_damaged) as "Quantity Expired/Damaged", sum(Quantity_Received) as "Quantity Received"
+SELECT Product_description, sum(Stock_on_hand) AS "Stock_on_Hand", min(Expiry_Date) AS "Expiry Date", sum(Quantity_expired_and_damaged) AS "Quantity Expired/Damaged", sum(Quantity_Received) AS "Quantity Received"
 FROM
 (
 (SELECT Product_description, Stock_on_hand, Expiry_Date ,damaged.Quantity_expired_and_damaged ,Quantity_Received
@@ -9,8 +9,8 @@ FROM
             SELECT DISTINCT template.id AS Id,SQuatity.qty stock_on_hand ,template.name
             FROM product_template template
             INNER JOIN stock_quant SQuatity ON SQuatity.product_id = template.id
-        AND CAST(SQuatity.write_date AS DATE) >= CAST('2023-02-01' AS DATE)
-        AND CAST(SQuatity.write_date AS DATE) <= CAST('2023-02-28' AS DATE)
+        	AND CAST(SQuatity.write_date AS DATE) >= CAST('#startDate#' AS DATE)
+        	AND CAST(SQuatity.write_date AS DATE) <= CAST('#endDate#' AS DATE)
             ) product_name_quant
         GROUP BY product_name_quant.name,product_name_quant.id) AS stock_pro
         LEFT OUTER JOIN
@@ -18,8 +18,8 @@ FROM
 		SELECT product_id,min(expiry_date) Expiry_Date
         FROM stock_pack_operation_lot sp
         INNER JOIN stock_pack_operation spo on spo.id = operation_id
-        AND spo.write_date >= CAST('2023-02-01' AS DATE)
-        AND spo.write_date <= CAST('2023-02-28' AS DATE)
+        AND spo.write_date >= CAST('#startDate#' AS DATE)
+        AND spo.write_date <= CAST('#endDate#' AS DATE)
         GROUP BY product_id
         )expiry ON stock_pro.Id = expiry.product_id
 LEFT OUTER JOIN
@@ -30,9 +30,9 @@ FROM
     (
     SELECT DISTINCT sp.product_id,sum(qty) AS Quantity_Expired
     FROM stock_pack_operation sp
-    INNER JOIN stock_pack_operation_lot spo on sp.id = spo.operation_id AND expiry_date < CAST('2023-02-28' AS DATE)
-    AND sp.write_date >= CAST('2023-02-01' AS DATE)
-    AND sp.write_date <= CAST('2023-02-28' AS DATE)
+    INNER JOIN stock_pack_operation_lot spo on sp.id = spo.operation_id AND expiry_date < CAST('#endDate#' AS DATE)
+    AND sp.write_date >= CAST('#startDate#' AS DATE)
+    AND sp.write_date <= CAST('#endDate#' AS DATE)
     GROUP BY sp.product_id
     )
 UNION ALL
@@ -40,8 +40,8 @@ UNION ALL
     SELECT DISTINCT ss.product_id,sum(scrap_qty)
     FROM stock_pack_operation sp
     INNER JOIN stock_scrap ss ON sp.product_id = ss.product_id
-    AND sp.write_date >= CAST('2023-02-01' AS DATE)
-    AND sp.write_date <= CAST('2023-02-28' AS DATE)
+    AND sp.write_date >= CAST('#startDate#' AS DATE)
+    AND sp.write_date <= CAST('#endDate#' AS DATE)
     GROUP BY ss.product_id
     )
 )damaged
@@ -52,90 +52,90 @@ LEFT OUTER JOIN
 (-- QUANTITY RECEIVED
 SELECT product_id,qty_received Quantity_Received
 FROM purchase_order_line pol
-WHERE CAST (write_date AS TIMESTAMP) <= CAST('2023-02-28' AS DATE)
+WHERE CAST (write_date AS TIMESTAMP) <= CAST('#endDate#' AS DATE)
 AND state = 'purchase'
-AND pol.write_date >= CAST('2023-02-01' AS DATE)
-AND pol.write_date <= CAST('2023-02-28' AS DATE)
+AND pol.write_date >= CAST('#startDate#' AS DATE)
+AND pol.write_date <= CAST('#endDate#' AS DATE)
 )received ON stock_pro.id = received.product_id)
 
 UNION ALL
 (
 -- ALL PRODUCTS IN DHIS2 ARVS DATASET
-SELECT  'Abacavir 300mg',0,CAST('2023-02-28' AS DATE),0,0 --1
+SELECT  'Abacavir 300mg',0,CURRENT_DATE,0,0 --1
 UNION ALL
-SELECT  'ABC-3TC 600/300mg',0,CAST('2023-02-01' AS DATE),0,0 --2
+SELECT  'ABC-3TC 600/300mg',0,CURRENT_DATE,0,0 --2
 UNION ALL	
-SELECT  'Atazanavir 300mg',0,CAST('2023-02-01' AS DATE),0,0 --3
+SELECT  'Atazanavir 300mg',0,CURRENT_DATE,0,0 --3
 UNION ALL	
-SELECT  'Atazanavir/Ritonavir 300/100mg',0,CAST('2023-02-01' AS DATE),0,0 --4
+SELECT  'Atazanavir/Ritonavir 300/100mg',0,CURRENT_DATE,0,0 --4
 UNION ALL
-SELECT  'Darunavir 300mg',0,CAST('2023-02-01' AS DATE),0,0 --5
+SELECT  'Darunavir 300mg',0,CURRENT_DATE,0,0 --5
 UNION ALL	
-SELECT  'Darunavir 600mg',0,CAST('2023-02-01' AS DATE),0,0 --6
+SELECT  'Darunavir 600mg',0,CURRENT_DATE,0,0 --6
 UNION ALL	
-SELECT  'Dolutegravir 50mg',0,CAST('2023-02-01' AS DATE),0,0 --7
+SELECT  'Dolutegravir 50mg',0,CURRENT_DATE,0,0 --7
 UNION ALL	
-SELECT  'Dolutegravir 10mg',0,CAST('2023-02-01' AS DATE),0,0 --8
+SELECT  'Dolutegravir 10mg',0,CURRENT_DATE,0,0 --8
 UNION ALL	
-SELECT  'Efavirenz 600mg',0,CAST('2023-02-01' AS DATE),0,0 --9
+SELECT  'Efavirenz 600mg',0,CURRENT_DATE,0,0 --9
 UNION ALL	
-SELECT  'Etravirine 100mg',0,CAST('2023-02-01' AS DATE),0,0 --10
+SELECT  'Etravirine 100mg',0,CURRENT_DATE,0,0 --10
 UNION ALL	
-SELECT  'Lamivudine (3TC) 150mg',0,CAST('2023-02-01' AS DATE),0,0 --11
+SELECT  'Lamivudine (3TC) 150mg',0,CURRENT_DATE,0,0 --11
 UNION ALL	
-SELECT  'Lopinavir and Ritonavir - 200/50mg',0,CAST('2023-02-01' AS DATE),0,0 --12
+SELECT  'Lopinavir and Ritonavir - 200/50mg',0,CURRENT_DATE,0,0 --12
 UNION ALL	
-SELECT  'Nevirapine 200mg',0,CAST('2023-02-01' AS DATE),0,0 --13
+SELECT  'Nevirapine 200mg',0,CURRENT_DATE,0,0 --13
 UNION ALL	
-SELECT  'Raltegravir 400mg',0,CAST('2023-02-01' AS DATE),0,0 --14
+SELECT  'Raltegravir 400mg',0,CURRENT_DATE,0,0 --14
 UNION ALL	
-SELECT  'Ritonavir 100mg',0,CAST('2023-02-01' AS DATE),0,0 --15
+SELECT  'Ritonavir 100mg',0,CURRENT_DATE,0,0 --15
 UNION ALL	
-SELECT  'Tenofovir 300mg',0,CAST('2023-02-01' AS DATE),0,0 --16
+SELECT  'Tenofovir 300mg',0,CURRENT_DATE,0,0 --16
 UNION ALL	
-SELECT  'TDF-3TC 300/300mg',0,CAST('2023-02-01' AS DATE),0,0 --17
+SELECT  'TDF-3TC 300/300mg',0,CURRENT_DATE,0,0 --17
 UNION ALL	
-SELECT  '1j=TDF-3TC-DTG 300/300/50mg',0,CAST('2023-02-01' AS DATE),0,0 --18
+SELECT  '1j=TDF-3TC-DTG 300/300/50mg',0,CURRENT_DATE,0,0 --18
 UNION ALL	
-SELECT  '1j=TDF-3TC-DTG 300/300/50mg (90)',0,CAST('2023-02-01' AS DATE),0,0 --19
+SELECT  '1j=TDF-3TC-DTG 300/300/50mg (90)',0,CURRENT_DATE,0,0 --19
 UNION ALL	
-SELECT  '1f=TDF-3TC-EFV 300/300/400mg',0,CAST('2023-02-01' AS DATE),0,0 --20
+SELECT  '1f=TDF-3TC-EFV 300/300/400mg',0,CURRENT_DATE,0,0 --20
 UNION ALL	
-SELECT  '1f=TDF-3TC-EFV 300/300/400mg (90)',0,CAST('2023-02-01' AS DATE),0,0 --21
+SELECT  '1f=TDF-3TC-EFV 300/300/400mg (90)',0,CURRENT_DATE,0,0 --21
 UNION ALL	
-SELECT  '1f=TDF-3TC-EFV 300/300/600mg',0,CAST('2023-02-01' AS DATE),0,0 --22
+SELECT  '1f=TDF-3TC-EFV 300/300/600mg',0,CURRENT_DATE,0,0 --22
 UNION ALL	
-SELECT  'Zidovudine 300mg',0,CAST('2023-02-01' AS DATE),0,0 --23
+SELECT  'Zidovudine 300mg',0,CURRENT_DATE,0,0 --23
 UNION ALL	
-SELECT  'Zidovudine 10mg/1ml Suspension',0,CAST('2023-02-01' AS DATE),0,0 --24
+SELECT  'Zidovudine 10mg/1ml Suspension',0,CURRENT_DATE,0,0 --24
 UNION ALL
-SELECT  'AZT-3TC 300/150mg',0,CAST('2023-02-01' AS DATE),0,0 --25
+SELECT  'AZT-3TC 300/150mg',0,CURRENT_DATE,0,0 --25
 UNION ALL	
-SELECT  '1c=AZT-3TC-NVP 300/150/200mg',0,CAST('2023-02-01' AS DATE),0,0 --26
+SELECT  '1c=AZT-3TC-NVP 300/150/200mg',0,CURRENT_DATE,0,0 --26
 UNION ALL	
-SELECT  'Abacavir 60mg',0,CAST('2023-02-01' AS DATE),0,0 --27
+SELECT  'Abacavir 60mg',0,CURRENT_DATE,0,0 --27
 UNION ALL	
-SELECT  'Abacavir / Lamivudine(ABC/3TC) - 120/60mg',0,CAST('2023-02-01' AS DATE),0,0 --28
+SELECT  'Abacavir / Lamivudine(ABC/3TC) - 120/60mg',0,CURRENT_DATE,0,0 --28
 UNION ALL	
-SELECT  'Darunavir 75mg',0,CAST('2023-02-01' AS DATE),0,0 --29
+SELECT  'Darunavir 75mg',0,CURRENT_DATE,0,0 --29
 UNION ALL	
-SELECT  'Efavirenz 200mg',0,CAST('2023-02-01' AS DATE),0,0 --30
+SELECT  'Efavirenz 200mg',0,CURRENT_DATE,0,0 --30
 UNION ALL	
-SELECT  'Lopinavir and Ritonavir - 80mg/20ml',0,CAST('2023-02-01' AS DATE),0,0 --31
+SELECT  'Lopinavir and Ritonavir - 80mg/20ml',0,CURRENT_DATE,0,0 --31
 UNION ALL	
-SELECT  'Lopinavir and Ritonavir- 40/10mg',0,CAST('2023-02-01' AS DATE),0,0 --32
+SELECT  'Lopinavir and Ritonavir- 40/10mg',0,CURRENT_DATE,0,0 --32
 UNION ALL	
-SELECT  'Lopinavir and Ritonavir- 100/25mg',0,CAST('2023-02-01' AS DATE),0,0 --33
+SELECT  'Lopinavir and Ritonavir- 100/25mg',0,CURRENT_DATE,0,0 --33
 UNION ALL	
-SELECT  'Nevirapine mixture 50mg',0,CAST('2023-02-01' AS DATE),0,0 --34
+SELECT  'Nevirapine mixture 50mg',0,CURRENT_DATE,0,0 --34
 UNION ALL	
-SELECT  'Nevirapine mixture 50mg/5ml',0,CAST('2023-02-01' AS DATE),0,0 --35
+SELECT  'Nevirapine mixture 50mg/5ml',0,CURRENT_DATE,0,0 --35
 UNION ALL	
-SELECT  'Raltegravir 100mg',0,CAST('2023-02-01' AS DATE),0,0 --36
+SELECT  'Raltegravir 100mg',0,CURRENT_DATE,0,0 --36
 UNION ALL	
-SELECT  'AZT-3TC 60/30mg',0,CAST('2023-02-01' AS DATE),0,0 --37
+SELECT  'AZT-3TC 60/30mg',0,CURRENT_DATE,0,0 --37
 UNION ALL	
-SELECT  '4c=AZT-3TC-NVP 60/30/50mg',0,CAST('2023-02-01' AS DATE),0,0 --38
+SELECT  '4c=AZT-3TC-NVP 60/30/50mg',0,CURRENT_DATE,0,0 --38
 )
 )AS all_agg
 GROUP BY Product_description
