@@ -13,11 +13,11 @@ From
         AND CAST(SQuatity.write_date AS DATE) <= CAST('2023-02-28' AS DATE)
             ) product_name_quant
         Group by product_name_quant.name,product_name_quant.id) as stock_pro
-        Left OUTER Join
+        LEFT OUTER JOIN
         (-- OLDEST EXPIRY DATE
 		select product_id,min(expiry_date) Expiry_Date
         FROM stock_pack_operation_lot sp
-        inner join stock_pack_operation spo on spo.id = operation_id
+        INNER JOIN stock_pack_operation spo on spo.id = operation_id
         AND spo.write_date >= CAST('2023-02-01' AS DATE)
         AND spo.write_date <= CAST('2023-02-28' AS DATE)
         group by product_id
@@ -30,7 +30,7 @@ FROM
     (
     select distinct sp.product_id,sum(qty) as Quantity_Expired
     from stock_pack_operation sp
-    inner join stock_pack_operation_lot spo on sp.id = spo.operation_id AND expiry_date < CAST('2023-02-28' AS DATE)
+    INNER JOIN stock_pack_operation_lot spo on sp.id = spo.operation_id AND expiry_date < CAST('2023-02-28' AS DATE)
     AND sp.write_date >= CAST('2023-02-01' AS DATE)
     AND sp.write_date <= CAST('2023-02-28' AS DATE)
     group by sp.product_id
@@ -39,7 +39,7 @@ UNION ALL
     (
     select distinct ss.product_id,sum(scrap_qty)
     from stock_pack_operation sp
-    inner join stock_scrap ss on sp.product_id = ss.product_id
+    INNER JOIN stock_scrap ss on sp.product_id = ss.product_id
     AND sp.write_date >= CAST('2023-02-01' AS DATE)
     AND sp.write_date <= CAST('2023-02-28' AS DATE)
     GROUP BY ss.product_id
