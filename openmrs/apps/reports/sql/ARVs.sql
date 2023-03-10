@@ -60,121 +60,123 @@ AND pol.write_date <= CAST('#endDate#' AS DATE)
 
 UNION ALL
 (
-SELECT  'Abacavir 300mg',0,CURRENT_DATE,0,0 
+-- ALL PRODUCTS IN DHIS2 ARVS DATASET
+SELECT  'Abacavir 300mg',0,CURRENT_DATE,0,0 --1
 UNION ALL
-SELECT  'ABC-3TC 600/300mg',0,CURRENT_DATE,0,0 
+SELECT  'ABC-3TC 600/300mg',0,CURRENT_DATE,0,0 --2
 UNION ALL	
-SELECT  'Atazanavir 300mg',0,CURRENT_DATE,0,0 
+SELECT  'Atazanavir 300mg',0,CURRENT_DATE,0,0 --3
 UNION ALL	
-SELECT  'Atazanavir/Ritonavir 300/100mg',0,CURRENT_DATE,0,0 
+SELECT  'Atazanavir/Ritonavir 300/100mg',0,CURRENT_DATE,0,0 --4
 UNION ALL
-SELECT  'Darunavir 300mg',0,CURRENT_DATE,0,0 
+SELECT  'Darunavir 300mg',0,CURRENT_DATE,0,0 --5
 UNION ALL	
-SELECT  'Darunavir 600mg',0,CURRENT_DATE,0,0 
+SELECT  'Darunavir 600mg',0,CURRENT_DATE,0,0 --6
 UNION ALL	
-SELECT  'Dolutegravir 50mg',0,CURRENT_DATE,0,0 
+SELECT  'Dolutegravir 50mg',0,CURRENT_DATE,0,0 --7
 UNION ALL	
-SELECT  'Dolutegravir 10mg',0,CURRENT_DATE,0,0 
+SELECT  'Dolutegravir 10mg',0,CURRENT_DATE,0,0 --8
 UNION ALL	
-SELECT  'Efavirenz 600mg',0,CURRENT_DATE,0,0 
+SELECT  'Efavirenz 600mg',0,CURRENT_DATE,0,0 --9
 UNION ALL	
-SELECT  'Etravirine 100mg',0,CURRENT_DATE,0,0 
+SELECT  'Etravirine 100mg',0,CURRENT_DATE,0,0 --10
 UNION ALL	
-SELECT  'Lamivudine (3TC) 150mg',0,CURRENT_DATE,0,0 
+SELECT  'Lamivudine (3TC) 150mg',0,CURRENT_DATE,0,0 --11
 UNION ALL	
-SELECT  'Lopinavir and Ritonavir - 200/50mg',0,CURRENT_DATE,0,0 
+SELECT  'Lopinavir and Ritonavir - 200/50mg',0,CURRENT_DATE,0,0 --12
 UNION ALL	
-SELECT  'Nevirapine 200mg',0,CURRENT_DATE,0,0 
+SELECT  'Nevirapine 200mg',0,CURRENT_DATE,0,0 --13
 UNION ALL	
-SELECT  'Raltegravir 400mg',0,CURRENT_DATE,0,0 
+SELECT  'Raltegravir 400mg',0,CURRENT_DATE,0,0 --14
 UNION ALL	
-SELECT  'Ritonavir 100mg',0,CURRENT_DATE,0,0 
+SELECT  'Ritonavir 100mg',0,CURRENT_DATE,0,0 --15
 UNION ALL	
-SELECT  'Tenofovir 300mg',0,CURRENT_DATE,0,0 
+SELECT  'Tenofovir 300mg',0,CURRENT_DATE,0,0 --16
 UNION ALL	
-SELECT  'TDF-3TC 300/300mg',0,CURRENT_DATE,0,0 
+SELECT  'TDF-3TC 300/300mg',0,CURRENT_DATE,0,0 --17
 UNION ALL	
-SELECT  '1j=TDF-3TC-DTG 300/300/50mg',0,CURRENT_DATE,0,0 
+SELECT  '1j=TDF-3TC-DTG 300/300/50mg',0,CURRENT_DATE,0,0 --18
 UNION ALL	
-SELECT  '1j=TDF-3TC-DTG 300/300/50mg (90)',0,CURRENT_DATE,0,0 
+SELECT  '1j=TDF-3TC-DTG 300/300/50mg (90)',0,CURRENT_DATE,0,0 --19
 UNION ALL	
-SELECT  '1f=TDF-3TC-EFV 300/300/400mg',0,CURRENT_DATE,0,0 
+SELECT  '1f=TDF-3TC-EFV 300/300/400mg',0,CURRENT_DATE,0,0 --20
 UNION ALL	
-SELECT  '1f=TDF-3TC-EFV 300/300/400mg (90)',0,CURRENT_DATE,0,0 
+SELECT  '1f=TDF-3TC-EFV 300/300/400mg (90)',0,CURRENT_DATE,0,0 --21
 UNION ALL	
-SELECT  '1f=TDF-3TC-EFV 300/300/600mg',0,CURRENT_DATE,0,0 
+SELECT  '1f=TDF-3TC-EFV 300/300/600mg',0,CURRENT_DATE,0,0 --22
 UNION ALL	
-SELECT  'Zidovudine 300mg',0,CURRENT_DATE,0,0 
+SELECT  'Zidovudine 300mg',0,CURRENT_DATE,0,0 --23
 UNION ALL	
-SELECT  'Zidovudine 10mg/1ml Suspension',0,CURRENT_DATE,0,0 
+SELECT  'Zidovudine 10mg/1ml Suspension',0,CURRENT_DATE,0,0 --24
 UNION ALL
-SELECT  'AZT-3TC 300/150mg',0,CURRENT_DATE,0,0 
+SELECT  'AZT-3TC 300/150mg',0,CURRENT_DATE,0,0 --25
 UNION ALL	
-SELECT  '1c=AZT-3TC-NVP 300/150/200mg',0,CURRENT_DATE,0,0 
+SELECT  '1c=AZT-3TC-NVP 300/150/200mg',0,CURRENT_DATE,0,0 --26
 UNION ALL	
-SELECT  'Abacavir 60mg',0,CURRENT_DATE,0,0 
+SELECT  'Abacavir 60mg',0,CURRENT_DATE,0,0 --27
 UNION ALL	
-SELECT  'Abacavir / Lamivudine(ABC/3TC) - 120/60mg',0,CURRENT_DATE,0,0 
+SELECT  'Abacavir / Lamivudine(ABC/3TC) - 120/60mg',0,CURRENT_DATE,0,0 --28
 UNION ALL	
-SELECT  'Darunavir 75mg',0,CURRENT_DATE,0,0 
+SELECT  'Darunavir 75mg',0,CURRENT_DATE,0,0 --29
 UNION ALL	
-SELECT  'Efavirenz 200mg',0,CURRENT_DATE,0,0 
+SELECT  'Efavirenz 200mg',0,CURRENT_DATE,0,0 --30
 UNION ALL	
-SELECT  'Lopinavir and Ritonavir - 80mg/20ml',0,CURRENT_DATE,0,0 
+SELECT  'Lopinavir and Ritonavir - 80mg/20ml',0,CURRENT_DATE,0,0 --31
 UNION ALL	
-SELECT  'Lopinavir and Ritonavir- 40/10mg',0,CURRENT_DATE,0,0 
+SELECT  'Lopinavir and Ritonavir- 40/10mg',0,CURRENT_DATE,0,0 --32
 UNION ALL	
-SELECT  'Lopinavir and Ritonavir- 100/25mg',0,CURRENT_DATE,0,0 
+SELECT  'Lopinavir and Ritonavir- 100/25mg',0,CURRENT_DATE,0,0 --33
 UNION ALL	
-SELECT  'Nevirapine mixture 50mg',0,CURRENT_DATE,0,0 
+SELECT  'Nevirapine mixture 50mg',0,CURRENT_DATE,0,0 --34
 UNION ALL	
-SELECT  'Nevirapine mixture 50mg/5ml',0,CURRENT_DATE,0,0 
+SELECT  'Nevirapine mixture 50mg/5ml',0,CURRENT_DATE,0,0 --35
 UNION ALL	
-SELECT  'Raltegravir 100mg',0,CURRENT_DATE,0,0 
+SELECT  'Raltegravir 100mg',0,CURRENT_DATE,0,0 --36
 UNION ALL	
-SELECT  'AZT-3TC 60/30mg',0,CURRENT_DATE,0,0 
+SELECT  'AZT-3TC 60/30mg',0,CURRENT_DATE,0,0 --37
 UNION ALL	
-SELECT  '4c=AZT-3TC-NVP 60/30/50mg',0,CURRENT_DATE,0,0 
+SELECT  '4c=AZT-3TC-NVP 60/30/50mg',0,CURRENT_DATE,0,0 --38
 )
 )AS all_agg
 GROUP BY Product_description
 
-ORDER BY CASE 	  WHEN Product_description='Abacavir 300mg' 			THEN 1 
-		  WHEN Product_description='ABC-3TC 600/300mg'					THEN 2 
-		  WHEN Product_description='Atazanavir 300mg' 					THEN 3 
-		  WHEN Product_description='Atazanavir/Ritonavir 300/100mg' 	THEN 4 
-		  WHEN Product_description='Darunavir 300mg' 					THEN 5 
-		  WHEN Product_description='Darunavir 600mg' 					THEN 6 
-		  WHEN Product_description='Dolutegravir 50mg' 					THEN 7 
-		  WHEN Product_description='Dolutegravir 10mg' 					THEN 8 
-		  WHEN Product_description='Efavirenz 600mg' 					THEN 9 
-		  WHEN Product_description='Etravirine 100mg' 					THEN 10 
-		  WHEN Product_description='Lamivudine (3TC) 150mg' 			THEN 11 
-		  WHEN Product_description='Lopinavir and Ritonavir - 200/50mg' THEN 12 
-		  WHEN Product_description='Nevirapine 200mg' 					THEN 13 
-		  WHEN Product_description='Raltegravir 400mg' 					THEN 14 
-		  WHEN Product_description='Ritonavir 100mg' 					THEN 15 
-		  WHEN Product_description='Tenofovir 300mg' 					THEN 16 
-		  WHEN Product_description='TDF-3TC 300/300mg' 					THEN 17 
-		  WHEN Product_description='1j=TDF-3TC-DTG 300/300/50mg' 		THEN 18
+ -- MATCH ORDER TO DHIS2 ARVS DATASET
+ORDER BY CASE 	  WHEN Product_description='Abacavir 300mg' 			THEN 1 --OK
+		  WHEN Product_description='ABC-3TC 600/300mg'					THEN 2 --OK
+		  WHEN Product_description='Atazanavir 300mg' 					THEN 3 --OK
+		  WHEN Product_description='Atazanavir/Ritonavir 300/100mg' 	THEN 4 --OK
+		  WHEN Product_description='Darunavir 300mg' 					THEN 5 --OK
+		  WHEN Product_description='Darunavir 600mg' 					THEN 6 --OK
+		  WHEN Product_description='Dolutegravir 50mg' 					THEN 7 --OK
+		  WHEN Product_description='Dolutegravir 10mg' 					THEN 8 --OK
+		  WHEN Product_description='Efavirenz 600mg' 					THEN 9 --OK
+		  WHEN Product_description='Etravirine 100mg' 					THEN 10 --OK
+		  WHEN Product_description='Lamivudine (3TC) 150mg' 			THEN 11 --OK
+		  WHEN Product_description='Lopinavir and Ritonavir - 200/50mg' THEN 12 --OK
+		  WHEN Product_description='Nevirapine 200mg' 					THEN 13 --OK
+		  WHEN Product_description='Raltegravir 400mg' 					THEN 14 --OK
+		  WHEN Product_description='Ritonavir 100mg' 					THEN 15 --OK
+		  WHEN Product_description='Tenofovir 300mg' 					THEN 16 --OK
+		  WHEN Product_description='TDF-3TC 300/300mg' 					THEN 17 --OK
+		  WHEN Product_description='1j=TDF-3TC-DTG 300/300/50mg' 		THEN 18 --OK
 		  WHEN Product_description='1j=TDF-3TC-DTG 300/300/50mg (90)' 	THEN 19
-		  WHEN Product_description='1f=TDF-3TC-EFV 300/300/400mg' 		THEN 20 
+		  WHEN Product_description='1f=TDF-3TC-EFV 300/300/400mg' 		THEN 20 --OK
 		  WHEN Product_description='1f=TDF-3TC-EFV 300/300/400mg (90)' 	THEN 21
-		  WHEN Product_description='1f=TDF-3TC-EFV 300/300/600mg' 		THEN 22 
-		  WHEN Product_description='Zidovudine 300mg' 					THEN 23 
+		  WHEN Product_description='1f=TDF-3TC-EFV 300/300/600mg' 		THEN 22 --OK
+		  WHEN Product_description='Zidovudine 300mg' 					THEN 23 --OK
 		  WHEN Product_description='Zidovudine 10mg/1ml Suspension' 	THEN 24
-		  WHEN Product_description='AZT-3TC 300/150mg' 					THEN 25 
-		  WHEN Product_description='1c=AZT-3TC-NVP 300/150/200mg' 		THEN 26 
-		  WHEN Product_description='Abacavir 60mg' 						THEN 27 
-		  WHEN Product_description='Abacavir / Lamivudine(ABC/3TC) - 120/60mg' 		THEN 28 
-		  WHEN Product_description='Darunavir 75mg' 								THEN 29 
-		  WHEN Product_description='Efavirenz 200mg' 								THEN 30 
-		  WHEN Product_description='Lopinavir and Ritonavir - 80mg/20ml' 			THEN 31 
-		  WHEN Product_description='Lopinavir and Ritonavir- 40/10mg' 				THEN 32 
-		  WHEN Product_description='Lopinavir and Ritonavir- 100/25mg' 				THEN 33 
+		  WHEN Product_description='AZT-3TC 300/150mg' 					THEN 25 --OK
+		  WHEN Product_description='1c=AZT-3TC-NVP 300/150/200mg' 		THEN 26 --OK
+		  WHEN Product_description='Abacavir 60mg' 						THEN 27 --OK
+		  WHEN Product_description='Abacavir / Lamivudine(ABC/3TC) - 120/60mg' 		THEN 28 --OK
+		  WHEN Product_description='Darunavir 75mg' 								THEN 29 --OK
+		  WHEN Product_description='Efavirenz 200mg' 								THEN 30 --OK
+		  WHEN Product_description='Lopinavir and Ritonavir - 80mg/20ml' 			THEN 31 --OK
+		  WHEN Product_description='Lopinavir and Ritonavir- 40/10mg' 				THEN 32 --OK
+		  WHEN Product_description='Lopinavir and Ritonavir- 100/25mg' 				THEN 33 --OK
 		  WHEN Product_description='Nevirapine mixture 50mg' 						THEN 34
-		  WHEN Product_description='Nevirapine mixture 50mg/5ml' 					THEN 35 
-		  WHEN Product_description='Raltegravir 100mg' 								THEN 36 
-		  WHEN Product_description='AZT-3TC 60/30mg' 								THEN 37 
-		  WHEN Product_description='4c=AZT-3TC-NVP 60/30/50mg' 						THEN 38 
+		  WHEN Product_description='Nevirapine mixture 50mg/5ml' 					THEN 35 --MODIFY DHIS2 DATASET TO STORE ZERO DATA VALUES
+		  WHEN Product_description='Raltegravir 100mg' 								THEN 36 --OK
+		  WHEN Product_description='AZT-3TC 60/30mg' 								THEN 37 --OK
+		  WHEN Product_description='4c=AZT-3TC-NVP 60/30/50mg' 						THEN 38 --OK
 	 END;
