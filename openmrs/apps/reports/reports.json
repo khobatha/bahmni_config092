@@ -921,6 +921,7 @@
     "arv_list": {
         "name": "PHARM-001 | Pharmacy ARV Regimen",
         "type": "ERPGeneric",
+        "DHISProgram": true,
         "config": {
             "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/ARVs.sql"
         }
