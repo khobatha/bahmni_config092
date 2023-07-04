@@ -1212,7 +1212,6 @@
     "TB_Case_Detection_list": {
         "name": "TB-024 | TB Case Detection (list)",
         "type": "MRSGeneric",
-        "DHISProgram": true,
         "config": {
             "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/TB_Case_Detection.sql/"
         }
