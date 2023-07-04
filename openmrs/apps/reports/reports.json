@@ -957,12 +957,12 @@
     "PHARM-003 Dispensing Summary Report": {
         "name": "PHARM-003 Dispensing Summary Report",
         "type": "concatenated",
-		"DHISProgram": true,
         "config": {
             "reports": [
                 {
                     "name": "PHARM-003 Dispensing Summary Report",
                     "type": "ERPGeneric",
+                    "DHISProgram": true,
                     "config": {
                         "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/tally.sql"
                     }
