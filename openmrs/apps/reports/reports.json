@@ -439,7 +439,6 @@
     "DHIS_NUTRITIONAL_SUPPLEMENT": {
         "name": "ART-063 | NUTRITIONAL SUPPLEMENT",
         "type": "MRSGeneric",
-        "DHISProgram": true,
         "config": {
             "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/SECTION9.sql"
         }
@@ -447,6 +446,7 @@
     "ART-064 HIV Care and Treatment 2020a": {
 		"name": "ART-064 HIV Care and Treatment 2020a", 
         "type": "concatenated",
+        "DHISProgram": true,
         "config": {
             "reports": [
 				{
@@ -950,7 +950,6 @@
     "tally_numbers": {
         "name": "PHARM-003 | Dispensing Summary Report",
         "type": "ERPGeneric",
-        "DHISProgram": true,
         "config": {
             "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/tally.sql"
         }
