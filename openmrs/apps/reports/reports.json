@@ -928,7 +928,6 @@
     "PHARM-001 Pharmacy ARV Regimen": {
         "name": "PHARM-001 Pharmacy ARV Regimen",
         "type": "concatenated",
-		"DHISProgram": true,
         "config": {
             "reports": [
                 {
