@@ -2,7 +2,6 @@
     "txcurrcombinedlist": {
         "name": "ART-001 | Current on ART Detailed (List)",
         "type": "MRSGeneric",
-        "DHISProgram": true,
         "config": {
             "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/txcurr_combined_list.sql"
         }
