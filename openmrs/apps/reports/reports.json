@@ -928,6 +928,7 @@
     "PHARM-001 Pharmacy ARV Regimen": {
         "name": "PHARM-001 Pharmacy ARV Regimen",
         "type": "concatenated",
+        "DHISProgram": true,
         "config": {
             "reports": [
                 {
@@ -1141,6 +1142,7 @@
     "TB Screening Among HIV Clients": {
         "name": "TB-014 | TB Screening Among HIV Clients",
         "type": "concatenated",
+        "DHISProgram": true,
         "config": {
             "reports": [
                 {
