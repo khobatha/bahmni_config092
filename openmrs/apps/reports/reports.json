@@ -1669,17 +1669,17 @@
     }
 }
 ,
-"eRegister Weekly Report": {
-    "name": "eRegister Weekly Report",
+"eRegister Lab Monthly VL TaT Report": {
+    "name": "eRegister Lab Monthly VL TaT Report",
     "type": "concatenated",
     "DHISProgram": true,
     "config": {
         "reports": [
             {
-                "name": "eRegister Weekly Report",
+                "name": "eRegister Lab Monthly VL TaT Report",
                 "type": "MRSGeneric",
                 "config": {
-                    "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/Test_Sent_Turn_Around_Time_VL.sql"
+                    "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/dhis_integration_test_emr.sql"
                 }
             }
         ]
