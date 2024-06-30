@@ -369,6 +369,8 @@ from obs o
         )lost)
 		
 		UNION ALL
+		SELECT  '','Total_Current_In_CAGs'
+		UNION ALL
 		SELECT  '','Transfer_In_This_Month'
 		UNION ALL
 		SELECT  '','Transfer_Out_This_Month'
@@ -384,4 +386,4 @@ from obs o
     )all_lost
     )all_agg
     GROUP BY Heading
-	ORDER By FIELD (Heading,'Transfer_In_This_Month','Transfer_Out_This_Month','ART_Restart','Dead','Stopped','Lost' )
+	ORDER By FIELD (Heading,'Total_Current_In_CAGs','Transfer_In_This_Month','Transfer_Out_This_Month','ART_Restart','Dead','Stopped','Lost' )

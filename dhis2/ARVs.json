@@ -1,0 +1,1015 @@
+{
+  "orgUnit": "w6l8f1E1QwC",
+  "reports": {
+	  
+	  
+	  "PHARM-001 Pharmacy ARV Regimen": {
+                "dataValues":[
+                        {
+						"_comment": "Abacavir (ABC) 300mg",
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "tHs0u92olyL",
+                        "row": 1,
+                        "column": 2
+                        },
+						{
+						"_comment": "Abacavir (ABC) 300mg",
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "KW7Qz9S7OK5",
+                        "row": 1,
+                        "column": 3
+                        },
+						{
+						"_comment": "Abacavir (ABC) 300mg",
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "eqUz2gBIdFG",
+                        "row": 1,
+                        "column": 4
+                        },
+						{
+						"_comment": "Abacavir (ABC) 300mg",
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "Rr6GXf9mIQi",
+                        "row": 1,
+                        "column": 5
+                        },
+						{
+						"_comment": "Abacavir (ABC) 300mg",
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "nuLm7iGNiYE",
+                        "row": 1,
+                        "column": 6
+                        },
+						
+						
+						
+						 {
+						"_comment": "Abacavir/Lamivudine (ABC/3TC) - 600/300mg",
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "l1a3keYWBv6",
+                        "row": 2,
+                        "column": 2
+                        },
+						{
+						"_comment": "Abacavir/Lamivudine (ABC/3TC) - 600/300mg",
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "EqmfgqgIRyi",
+                        "row": 2,
+                        "column": 3
+                        },
+						{
+						"_comment": "Abacavir/Lamivudine (ABC/3TC) - 600/300mg",
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "G7ETgCetTqn",
+                        "row": 2,
+                        "column": 4
+                        },
+						{
+						"_comment": "Abacavir/Lamivudine (ABC/3TC) - 600/300mg",
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "wffnMKVJ6UZ",
+                        "row": 2,
+                        "column": 5
+                        },
+						{
+						"_comment": "Abacavir/Lamivudine (ABC/3TC) - 600/300mg",
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "t05Xhq75thz",
+                        "row": 2,
+                        "column": 6
+                        },
+						
+						
+						
+						 {
+						"_comment": "Atazanavir (ATV)  300mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "oLjTbC0W5mb",
+                        "row": 3,
+                        "column": 2
+                        },
+						{
+						"_comment": "Atazanavir (ATV)  300mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "fy4dHvpbHC4",
+                        "row": 3,
+                        "column": 3
+                        },
+						{
+						"_comment": "Atazanavir (ATV)  300mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "fsrhKFCkO1I",
+                        "row": 3,
+                        "column": 4
+                        },
+						{
+						"_comment": "Atazanavir (ATV)  300mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "xxHQE9jnnkp",
+                        "row": 3,
+                        "column": 5
+                        },
+						{
+						"_comment": "Atazanavir (ATV)  300mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "z7Zj8Jk7ULg",
+                        "row": 3,
+                        "column": 6
+                        },
+						
+						
+						
+						 {
+						"_comment": "Atazanavir/Ritonavir (ATV/RIV) - 300/100mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "gCwKqtTWu6V",
+                        "row": 4,
+                        "column": 2
+                        },
+						{
+						"_comment": "Atazanavir/Ritonavir (ATV/RIV) - 300/100mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "ZzeEGJQXU13",
+                        "row": 4,
+                        "column": 3
+                        },
+						{
+						"_comment": "Atazanavir/Ritonavir (ATV/RIV) - 300/100mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "h2R94uOqMZ9",
+                        "row": 4,
+                        "column": 4
+                        },
+						{
+						"_comment": "Atazanavir/Ritonavir (ATV/RIV) - 300/100mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "vFJcpQLec2S",
+                        "row": 4,
+                        "column": 5
+                        },
+						{
+						"_comment": "Atazanavir/Ritonavir (ATV/RIV) - 300/100mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "fIhxcPzM3dK",
+                        "row": 4,
+                        "column": 6
+                        },
+						
+						
+						
+						
+						 {
+						"_comment": "Darunavir (DVR) - 300mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "UNrRVAhAM5m",
+                        "row": 5,
+                        "column": 2
+                        },
+						{
+						"_comment": "Darunavir (DVR) - 300mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "AlYxsT3ASFu",
+                        "row": 5,
+                        "column": 3
+                        },
+						{
+						"_comment": "Darunavir (DVR) - 300mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "A4mpiD9yUWB",
+                        "row": 5,
+                        "column": 4
+                        },
+						{
+						"_comment": "Darunavir (DVR) - 300mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "Th7nbyZ8ntv",
+                        "row": 5,
+                        "column": 5
+                        },
+						{
+						"_comment": "Darunavir (DVR) - 300mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "WmktK3HQ0Bh",
+                        "row": 5,
+                        "column": 6
+                        },
+						
+						
+						
+						 {
+						"_comment": "Darunavir (DVR) - 600mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "phWSnsLw3Re",
+                        "row": 6,
+                        "column": 2
+                        },
+						{
+						"_comment": "Darunavir (DVR) - 600mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "reL8CJg36zE",
+                        "row": 6,
+                        "column": 3
+                        },
+						
+						{
+						"_comment": "Darunavir (DVR) - 600mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "wZwByWmjnJb",
+                        "row": 6,
+                        "column": 4
+                        },
+						
+						{
+						"_comment": "Darunavir (DVR) - 600mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "HOxyCg2MtQY",
+                        "row": 6,
+                        "column": 5
+                        },
+						
+						{
+						"_comment": "Darunavir (DVR) - 600mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "V8OLlSzPRcj",
+                        "row": 6,
+                        "column": 6
+                        },
+						
+						
+						
+						
+						 {
+						"_comment": "Dolutegravir (DTG) - 50mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "Y0kffBBg2wF",
+                        "row": 7,
+                        "column": 2
+                        },
+						{
+						"_comment": "Dolutegravir (DTG) - 50mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "rjvt73ldywX",
+                        "row": 7,
+                        "column": 3
+                        },
+						{
+						"_comment": "Dolutegravir (DTG) - 50mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "zdsXYiXzDOt",
+                        "row": 7,
+                        "column": 4
+                        },
+						{
+						"_comment": "Dolutegravir (DTG) - 50mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "JYzrpWVCPEK",
+                        "row": 7,
+                        "column": 5
+                        },
+						{
+						"_comment": "Dolutegravir (DTG) - 50mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "cXrYiruMDgq",
+                        "row": 7,
+                        "column": 6
+                        },
+						
+						
+						
+						
+						
+						 {
+						"_comment": "Dolutegravir (DTG) - 10mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "PzvQLxDJrms",
+                        "row": 8,
+                        "column": 2
+                        },
+						{
+						"_comment": "Dolutegravir (DTG) - 10mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "T6GRqEdtm1o",
+                        "row": 8,
+                        "column": 3
+                        },
+						{
+						"_comment": "Dolutegravir (DTG) - 10mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "OFNt6r209WJ",
+                        "row": 8,
+                        "column": 4
+                        },
+						{
+						"_comment": "Dolutegravir (DTG) - 10mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "qzHGc1eY7Xh",
+                        "row": 8,
+                        "column": 5
+                        },
+						{
+						"_comment": "Dolutegravir (DTG) - 10mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "K7yIrW2lL81",
+                        "row": 8,
+                        "column": 6
+                        },
+						
+						
+						
+						{
+						"_comment": "Efavirenz (EFV) - 600mg",
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "N5Iy2wMU7yh",
+                        "row": 9,
+                        "column": 2
+                        },
+						{
+						"_comment": "Efavirenz (EFV) - 600mg",
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "OoM3RLFkApR",
+                        "row": 9,
+                        "column": 3
+                        },
+						{
+						"_comment": "Efavirenz (EFV) - 600mg",
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "nVjcV17USRw",
+                        "row": 9,
+                        "column": 4
+                        },
+						{
+						"_comment": "Efavirenz (EFV) - 600mg",
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "Jt4PjBfCqAO",
+                        "row": 9,
+                        "column": 5
+                        },
+						{
+						"_comment": "Efavirenz (EFV) - 600mg",
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "J2SU7yrZLtX",
+                        "row": 9,
+                        "column": 6
+                        },
+						
+						
+						
+						 {
+						"_comment": "Etravirine (ETV) - 100mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "tUiK0vIsDaX",
+                        "row": 10,
+                        "column": 2
+                        },
+						{
+						"_comment": "Etravirine (ETV) - 100mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "Ray0YM3U3a4",
+                        "row": 10,
+                        "column": 3
+                        },
+						{
+						"_comment": "Etravirine (ETV) - 100mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "mLj2jm7bJH6",
+                        "row": 10,
+                        "column": 4
+                        },
+						{
+						"_comment": "Etravirine (ETV) - 100mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "BBsADgnPqs8",
+                        "row": 10,
+                        "column": 5
+                        },
+						{
+						"_comment": "Etravirine (ETV) - 100mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "nmWayMaYm8w",
+                        "row": 10,
+                        "column": 6
+                        },
+						
+						
+						
+						 {
+						"_comment": "Lamivudine (3TC) - 150mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "sCQwmI7wuLt",
+                        "row": 11,
+                        "column": 2
+                        },
+						{
+						"_comment": "Lamivudine (3TC) - 150mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "Ge680eS75aN",
+                        "row": 11,
+                        "column": 3
+                        },
+						{
+						"_comment": "Lamivudine (3TC) - 150mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "oq2pHmDIQpk",
+                        "row": 11,
+                        "column": 4
+                        },
+						{
+						"_comment": "Lamivudine (3TC) - 150mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "KMv8JSKkcFX",
+                        "row": 11,
+                        "column": 5
+                        },
+						{
+						"_comment": "Lamivudine (3TC) - 150mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "lYMqFB8RnH5",
+                        "row": 11,
+                        "column": 6
+                        },
+						
+						
+						
+						 {
+						"_comment": "Lopinavir/Ritonavir (LPV/r) - 200/50mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "aDc1H8aQjt2",
+                        "row": 12,
+                        "column": 2
+                        },
+						{
+						"_comment": "Lopinavir/Ritonavir (LPV/r) - 200/50mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "BZyu5kpW9il",
+                        "row": 12,
+                        "column": 3
+                        },
+						{
+						"_comment": "Lopinavir/Ritonavir (LPV/r) - 200/50mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "XCVAk1MyiE7",
+                        "row": 12,
+                        "column": 4
+                        },
+						{
+						"_comment": "Lopinavir/Ritonavir (LPV/r) - 200/50mg",	 
+                        "categoryOptionCombo": "QD9nPGfWnBo",
+                        "dataElement": "Rr6GXf9mIQi",
+                        "row": 12,
+                        "column": 5
+                        },
+						{
+						"_comment": "Lopinavir/Ritonavir (LPV/r) - 200/50mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "CxDxW1C5qpF",
+                        "row": 12,
+                        "column": 6
+                        },
+						
+						
+						
+						 {
+						"_comment": "Nevirapine (NVP) - 200mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "A8bOBh7R7CH",
+                        "row": 13,
+                        "column": 2
+                        },
+						{
+						"_comment": "Nevirapine (NVP) - 200mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "TmYaT6UDhS3",
+                        "row": 13,
+                        "column": 3
+                        },
+						{
+						"_comment": "Nevirapine (NVP) - 200mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "i7LXemcJbt2",
+                        "row": 13,
+                        "column": 4
+                        },
+						{
+						"_comment": "Nevirapine (NVP) - 200mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "oNnIzL15Twx",
+                        "row": 13,
+                        "column": 5
+                        },
+						{
+						"_comment": "Nevirapine (NVP) - 200mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "YevpNpHv2eK",
+                        "row": 13,
+                        "column": 6
+                        },
+						
+						
+						
+						 {
+						"_comment": "Raltegravir (RAL) - 400mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "t6UP8Tc1aIh",
+                        "row": 14,
+                        "column": 2
+                        },
+						{
+						"_comment": "Raltegravir (RAL) - 400mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "lFrFKWPWc6x",
+                        "row": 14,
+                        "column": 3
+                        },
+						{
+						"_comment": "Raltegravir (RAL) - 400mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "NklyzdcPi2u",
+                        "row": 14,
+                        "column": 4
+                        },
+						{
+						"_comment": "Raltegravir (RAL) - 400mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "vMZvD6QuoGu",
+                        "row": 14,
+                        "column": 5
+                        },
+						{
+						"_comment": "Raltegravir (RAL) - 400mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "HC3o6Umx9Zh",
+                        "row": 14,
+                        "column": 6
+                        },
+						
+						
+						
+						 {
+						"_comment": "Ritonavir (RIV) - 100mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "gHmqTWcUw4t",
+                        "row": 15,
+                        "column": 2
+                        },
+						{
+						"_comment": "Ritonavir (RIV) - 100mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "FKzfp6WV705",
+                        "row": 15,
+                        "column": 3
+                        },
+						{
+						"_comment": "Ritonavir (RIV) - 100mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "yCClRe90DZR",
+                        "row": 15,
+                        "column": 4
+                        },
+						{
+						"_comment": "Ritonavir (RIV) - 100mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "wxonbxiqmbB",
+                        "row": 15,
+                        "column": 5
+                        },
+						{
+						"_comment": "Ritonavir (RIV) - 100mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "JRQlER1T6YK",
+                        "row": 15,
+                        "column": 6
+                        },
+						
+						
+						
+						 {
+						"_comment": "Tenofovir (TDF) - 300mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "cxt8W0zH8KB",
+                        "row": 16,
+                        "column": 2
+                        },
+						{
+						"_comment": "Tenofovir (TDF) - 300mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "oRc0cafiTk3",
+                        "row": 16,
+                        "column": 3
+                        },
+						{
+						"_comment": "Tenofovir (TDF) - 300mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "VIf7eFJwfDM",
+                        "row": 16,
+                        "column": 4
+                        },
+						{
+						"_comment": "Tenofovir (TDF) - 300mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "NmqdRu9kVnn",
+                        "row": 16,
+                        "column": 5
+                        },
+						{
+						"_comment": "Tenofovir (TDF) - 300mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "FtkhlJ5vjJ0",
+                        "row": 16,
+                        "column": 6
+                        },
+						
+						
+						
+						{
+						"_comment": "Tenofovir/Lamivudine (TDF/3TC) - 300/300mg",	
+						"_comment": "total current in CAGs",
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "SWG9QhKRSXo",
+                        "row": 17,
+                        "column": 2
+                        },
+						{
+						"_comment": "Tenofovir/Lamivudine (TDF/3TC) - 300/300mg",	
+						"_comment": "total current in CAGs",
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "KMKB7SB7eOK",
+                        "row": 17,
+                        "column": 3
+                        },
+						{
+						"_comment": "Tenofovir/Lamivudine (TDF/3TC) - 300/300mg",	
+						"_comment": "total current in CAGs",
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "Z2U6Br5jDLc",
+                        "row": 17,
+                        "column": 4
+                        },
+						{
+						"_comment": "Tenofovir/Lamivudine (TDF/3TC) - 300/300mg",	
+						"_comment": "total current in CAGs",
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "axYbsLOu2Wi",
+                        "row": 17,
+                        "column": 5
+                        },
+						{
+						"_comment": "Tenofovir/Lamivudine (TDF/3TC) - 300/300mg",	
+						"_comment": "total current in CAGs",
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "APzBjd9qNnQ",
+                        "row": 17,
+                        "column": 6
+                        },
+						
+						
+						
+						 {
+						"_comment": "Tenofovir/Lamivudine/Dolutegravir (TDF/3TC/DTG) - 300/300/50mg (30 tablets)",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "fO7hCz3Gc10",
+                        "row": 18,
+                        "column": 2
+                        },
+						{
+						"_comment": "Tenofovir/Lamivudine/Dolutegravir (TDF/3TC/DTG) - 300/300/50mg (30 tablets)",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "Ev6DvHTStyp",
+                        "row": 18,
+                        "column": 3
+                        },
+						{
+						"_comment": "Tenofovir/Lamivudine/Dolutegravir (TDF/3TC/DTG) - 300/300/50mg (30 tablets)",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "JYGWPVkL5A1",
+                        "row": 18,
+                        "column": 4
+                        },
+						{
+						"_comment": "Tenofovir/Lamivudine/Dolutegravir (TDF/3TC/DTG) - 300/300/50mg (30 tablets)",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "ItrmgW6k5cD",
+                        "row": 18,
+                        "column": 5
+                        },
+						{
+						"_comment": "Tenofovir/Lamivudine/Dolutegravir (TDF/3TC/DTG) - 300/300/50mg (30 tablets)",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "sGXLnQrRuh0",
+                        "row": 18,
+                        "column": 6
+                        },
+						
+						
+						
+						 {
+						"_comment": "Tenofovir/Lamivudine/Dolutegravir (TDF/3TC/DTG) - 300/300/50mg (90 tablets)",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "GvKhG2tSeOV",
+                        "row": 19,
+                        "column": 2
+                        },
+						{
+						"_comment": "Tenofovir/Lamivudine/Dolutegravir (TDF/3TC/DTG) - 300/300/50mg (90 tablets)",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "PpKH5JwQtJS",
+                        "row": 19,
+                        "column": 3
+                        },
+						{
+						"_comment": "Tenofovir/Lamivudine/Dolutegravir (TDF/3TC/DTG) - 300/300/50mg (90 tablets)",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "s33GP33cm9e",
+                        "row": 19,
+                        "column": 4
+                        },
+						{
+						"_comment": "Tenofovir/Lamivudine/Dolutegravir (TDF/3TC/DTG) - 300/300/50mg (90 tablets)",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "bQrbXHC8c5W",
+                        "row": 19,
+                        "column": 5
+                        },
+						{
+						"_comment": "Tenofovir/Lamivudine/Dolutegravir (TDF/3TC/DTG) - 300/300/50mg (90 tablets)",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "paStW86SBm5",
+                        "row": 19,
+                        "column": 6
+                        },
+						
+						
+						
+						 {
+						"_comment": "Tenofovir/Lamivudine/Efavirenz (TDF/3TC/EFV) - 300/300/400mg (30 tablets)",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "tpISFlbY8KE",
+                        "row": 20,
+                        "column": 2
+                        },
+						{
+						"_comment": "Tenofovir/Lamivudine/Efavirenz (TDF/3TC/EFV) - 300/300/400mg (30 tablets)",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "xOUL2pbt7F0",
+                        "row": 20,
+                        "column": 3
+                        },
+						{
+						"_comment": "Tenofovir/Lamivudine/Efavirenz (TDF/3TC/EFV) - 300/300/400mg (30 tablets)",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "Sbq3REqtuhf",
+                        "row": 20,
+                        "column": 4
+                        },
+						{
+						"_comment": "Tenofovir/Lamivudine/Efavirenz (TDF/3TC/EFV) - 300/300/400mg (30 tablets)",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "uPJOKe3XvIC",
+                        "row": 20,
+                        "column": 5
+                        },
+						{
+						"_comment": "Tenofovir/Lamivudine/Efavirenz (TDF/3TC/EFV) - 300/300/400mg (30 tablets)",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "TuTvXb0NkVn",
+                        "row": 20,
+                        "column": 6
+                        },
+						
+						
+						
+						 {
+						"_comment": "Tenofovir/Lamivudine/Efavirenz (TDF/3TC/EFV) - 300/300/400mg (90 tablets)",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "eO72RCmjxCr",
+                        "row": 21,
+                        "column": 2
+                        },
+						{
+						"_comment": "Tenofovir/Lamivudine/Efavirenz (TDF/3TC/EFV) - 300/300/400mg (90 tablets)",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "ddckJ9rVq4h",
+                        "row": 21,
+                        "column": 3
+                        },
+						{
+						"_comment": "Tenofovir/Lamivudine/Efavirenz (TDF/3TC/EFV) - 300/300/400mg (90 tablets)",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "dxrNrF77tAM",
+                        "row": 21,
+                        "column": 4
+                        },
+						{
+						"_comment": "Tenofovir/Lamivudine/Efavirenz (TDF/3TC/EFV) - 300/300/400mg (90 tablets)",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "lvwEN2rCwLW",
+                        "row": 21,
+                        "column": 5
+                        },
+						{
+						"_comment": "Tenofovir/Lamivudine/Efavirenz (TDF/3TC/EFV) - 300/300/400mg (90 tablets)",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "JfIGj8mvgId",
+                        "row": 21,
+                        "column": 6
+                        },
+						
+						
+						
+						 {
+						"_comment": "Tenofovir/Lamivudine/Efavirenz (TDF/3TC/EFV) - 300/300/600mg (30 tablets)",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "Jo25rXMsFlK",
+                        "row": 22,
+                        "column": 2
+                        },
+						{
+						"_comment": "Tenofovir/Lamivudine/Efavirenz (TDF/3TC/EFV) - 300/300/600mg (30 tablets)",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "auts2w2tl7N",
+                        "row": 22,
+                        "column": 3
+                        },
+						{
+						"_comment": "Tenofovir/Lamivudine/Efavirenz (TDF/3TC/EFV) - 300/300/600mg (30 tablets)",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "emFhREAhllP",
+                        "row": 22,
+                        "column": 4
+                        },
+						{
+						"_comment": "Tenofovir/Lamivudine/Efavirenz (TDF/3TC/EFV) - 300/300/600mg (30 tablets)",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "dE7sShNwq6j",
+                        "row": 22,
+                        "column": 5
+                        },
+						{
+						"_comment": "Tenofovir/Lamivudine/Efavirenz (TDF/3TC/EFV) - 300/300/600mg (30 tablets)",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "jMwYKPBTUSs",
+                        "row": 22,
+                        "column": 6
+                        },
+						
+						
+						
+						 {
+						"_comment": "Zidovudine (AZT) - 300mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "pbiClpimyEc",
+                        "row": 23,
+                        "column": 2
+                        },
+						{
+						"_comment": "Zidovudine (AZT) - 300mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "fiSlX63LvMi",
+                        "row": 23,
+                        "column": 3
+                        },
+						{
+						"_comment": "Zidovudine (AZT) - 300mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "R6NMOUa6fWQ",
+                        "row": 23,
+                        "column": 4
+                        },
+						{
+						"_comment": "Zidovudine (AZT) - 300mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "UYhzlDubgl5",
+                        "row": 23,
+                        "column": 5
+                        },
+						{
+						"_comment": "Zidovudine (AZT) - 300mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "Qh0BKPOZiaA",
+                        "row": 23,
+                        "column": 6
+                        },
+						
+						
+						
+						 {
+						"_comment": "Zidovudine (AZT) - 10mg/1ml Suspension",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "RaYdGTVGHul",
+                        "row": 24,
+                        "column": 2
+                        },
+						{
+						"_comment": "Zidovudine (AZT) - 10mg/1ml Suspension",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "oLpM7uhnKjg",
+                        "row": 24,
+                        "column": 3
+                        },
+						
+						{
+						"_comment": "Zidovudine (AZT) - 10mg/1ml Suspension",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "eqUz2gBIdFG",
+                        "row": 24,
+                        "column": 4
+                        },
+						
+						{
+						"_comment": "Zidovudine (AZT) - 10mg/1ml Suspension",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "mzoEyCzSF71",
+                        "row": 24,
+                        "column": 5
+                        },
+						
+						{
+						"_comment": "Zidovudine (AZT) - 10mg/1ml Suspension",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "FjQ4MmQXHyk",
+                        "row": 24,
+                        "column": 6
+                        },
+						
+						
+						
+						
+						 {
+						"_comment": "Zidovudine/Lamivudine (AZT/3TC)- 300/150mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "Plfq0UdnU2Y",
+                        "row": 25,
+                        "column": 2
+                        },
+						{
+						"_comment": "Zidovudine/Lamivudine (AZT/3TC)- 300/150mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "rv9cTatYOJ3",
+                        "row": 25,
+                        "column": 3
+                        },
+						{
+						"_comment": "Zidovudine/Lamivudine (AZT/3TC)- 300/150mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "z7auNCZXA92",
+                        "row": 25,
+                        "column": 4
+                        },
+						{
+						"_comment": "Zidovudine/Lamivudine (AZT/3TC)- 300/150mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "vc6jsBYIDbs",
+                        "row": 25,
+                        "column": 5
+                        },
+						{
+						"_comment": "Zidovudine/Lamivudine (AZT/3TC)- 300/150mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "R7qosGoiMKL",
+                        "row": 25,
+                        "column": 6
+                        },
+						
+						
+						
+						
+						 {
+						"_comment": "Zidovudine/Lamivudine/Nevirapine (AZT/3TC/NVP) - 300/150/200mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "dzo3noQHfVg",
+                        "row": 26,
+                        "column": 2
+                        },
+						{
+						"_comment": "Zidovudine/Lamivudine/Nevirapine (AZT/3TC/NVP) - 300/150/200mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "IB6Rya15oD3",
+                        "row": 26,
+                        "column": 3
+                        },
+						{
+						"_comment": "Zidovudine/Lamivudine/Nevirapine (AZT/3TC/NVP) - 300/150/200mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "SNj0OiN2mVg",
+                        "row": 26,
+                        "column": 4
+                        },
+						{
+						"_comment": "Zidovudine/Lamivudine/Nevirapine (AZT/3TC/NVP) - 300/150/200mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "WmxZqftaHcd",
+                        "row": 26,
+                        "column": 5
+                        },
+						{
+						"_comment": "Zidovudine/Lamivudine/Nevirapine (AZT/3TC/NVP) - 300/150/200mg",	 
+                        "categoryOptionCombo": "tUiK0vIsDaX",
+                        "dataElement": "BwLGiXRhCbw",
+                        "row": 26,
+                        "column": 6
+                        }
+                ]
+        }
+	
+    }
+}
+	
