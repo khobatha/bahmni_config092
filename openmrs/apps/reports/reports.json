@@ -1636,6 +1636,22 @@
         "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/Test_Sent_Turn_Around_Time_VL.sql/"
     }
 },
+"TESTS-03 DHIS Integration App Lab Sync Test": {
+    "name": "TESTS-03 DHIS Integration App Lab Sync Test",
+    "type": "concatenated",
+    "DHISProgram": true,
+    "config": {
+        "reports": [
+            {
+                "name": "TESTS-01 DHIS Integration App Lab Sync Test",
+                "type": "MRSGeneric",
+                "config": {
+                    "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/Test_Sent_Turn_Around_Time_VL.sql"
+                }
+            }
+        ]
+    }
+},
 "TESTS-01 DHIS Integration App EMR Sync Test": {
     "name": "TESTS-01 DHIS Integration App EMR Sync Test",
     "type": "concatenated",
@@ -1652,6 +1668,23 @@
         ]
     }
 },
+"LAB-012 Lab Turn Around Time": {
+    "name": "LAB-012 Lab Turn Around Time",
+    "type": "concatenated",
+    "DHISProgram": true,
+    "config": {
+        "reports": [
+            {
+                "name": "LAB-012 Lab Turn Around Time",
+                "type": "MRSGeneric",
+                "config": {
+                    "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/Test_Sent_Turn_Around_Time_VL.sql"
+                }
+            }
+        ]
+    }
+}
+,
 "TESTS-02 DHIS Integration App Lab Sync Test": {
     "name": "TESTS-02 DHIS Integration App Lab Sync Test",
     "type": "concatenated",
